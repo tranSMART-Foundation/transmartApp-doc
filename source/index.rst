@@ -8,7 +8,8 @@ The transmartApp documentation
 
 |image1|
  
-This version 16.2 of the tranSMART documentation was created by The Hyve
+This version 16.3 of the tranSMART documentation was updated by the I2b2 tranSMART Foundation
+extending a version created for version 16.2 by The Hyve
 and TraIT and adapted from an earlier version created by the tranSMART Foundation.
 
 The following was originally stated and still applies:
