@@ -1822,8 +1822,6 @@ analysis the median value for the probe will be different between these two grou
 .. |image88| image:: media/image88.jpeg
    :width: 6.48958in
    :height: 4.71875in
-.. |image89| image:: media/image89.png
-   :width: 0.13540in
 .. |image90| image:: media/image90.png
    :width: 3.43707in
    :height: 0.43745in

@@ -223,8 +223,6 @@ credentials in *~/.grails/transmartApp/Config.groovy*:
 .. _postgres.sql: https://github.com/transmart/transmart-data/tree/master/ddl/postgres/searchapp/search_user_settings.sql
 .. _oracle.sql: https://github.com/transmart/transmart-data/blob/master/ddl/oracle/searchapp/search_user_settings.sql
 
-.. |image89| image:: media/image89.png
-   :width: 0.13540in
 .. |image123| image:: media/image123.png
    :width: 6.00000in
    :height: 1.56389in
