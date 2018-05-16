@@ -1,0 +1,18 @@
+# info blocks
+^\+-+\+-+\+\n\| \|image[0-9]+\|[^\|]*\|([^\|]*)\|\n*.*\n.*
+# replace with 
+.. note::\n\t$1
+
+# links with too many astericks
+`\*([\w ]*).*`__
+# Short link references
+`$1`_
+
+# ROLE\_* to literal 
+[^`](ROLE\\_[A-Z_\\]*)
+# to literal
+``$1``
+# strip from  \_ to _ (run several times)
+(ROLE[A-Z_^`]*)\\
+#to
+$1
