@@ -155,7 +155,7 @@ To do so:
 
 #.  Click **Download Template** to the right of the File field:
 
-    |image236|
+    |image179|
 
     You will be prompted to open or save the template for the data type you
     specified in step 3.
@@ -168,6 +168,6 @@ To do so:
 #.  Click the **Cancel** button on the upload data form.
 
 
-.. |image236| image:: media/image179.png
+.. |image179| image:: media/image179.png
    :width: 6.00000in
    :height: 0.86474in

@@ -24,7 +24,7 @@ To view tranSMART data in the Genome Browser:
 #.  Define your cohort(s) as described in :ref:`defining-the-cohorts-label`.
 
 #.  Click the **Genome Browser** tab to display the data in the Genome Browser: 
-    |image165|
+    |image123|
 
 #.  Optionally, to add additional data from the study data, drag the
     concepts of interest from the study into the Genome Browser.
@@ -41,11 +41,11 @@ Information about the Genome Browser is located here:
 To see a description of a UI control, hover the mouse pointer over the
 control:
 
-|image166|
+|image124|
 
 Some highlights of the UI are shown below:
 
-|image167|
+|image125|
 
 Genomic Variants
 ~~~~~~~~~~~~~~~~
@@ -54,7 +54,7 @@ If the study has a genomic variants concept, drag it into the browser
 for a visualization of variants such as SNPs, unidentified mutations,
 insertions, and deletions:
 
-|image168|
+|image126|
 
 Note that:
 
@@ -65,9 +65,9 @@ Note that:
 -  Clicking an icon displays details about the variant. Below, a blue
    plus-sign icon is clicked to display details about a SNP:
 
-|image169|
+|image127|
 
-.. _metacore-enrichtment-analysis-label:
+.. _metacore-enrichment-analysis-label:
 
 MetaCore Enrichment Analysis
 ----------------------------
@@ -86,7 +86,7 @@ In the following figure, a histogram represents enrichment analysis
 results across MetaCore and disease pathway maps in the tranSMART
 interface.
 
-|image170|
+|image128|
 
 To perform a MetaCore Enrichment Analysis:
 
@@ -94,9 +94,9 @@ To perform a MetaCore Enrichment Analysis:
 
 #.  Click the **MetaCore Enrichment Analysis** tab:
 
-    |image171|
+    |image129|
  
-#.  Drag a high-dimensional data node (|image172|) into the Variable
+#.  Drag a high-dimensional data node (|image89|) into the Variable
     Selection box.
 
 #.  Click the **High Dimensional Data** button.
@@ -223,26 +223,26 @@ credentials in *~/.grails/transmartApp/Config.groovy*:
 .. _postgres.sql: https://github.com/transmart/transmart-data/tree/master/ddl/postgres/searchapp/search_user_settings.sql
 .. _oracle.sql: https://github.com/transmart/transmart-data/blob/master/ddl/oracle/searchapp/search_user_settings.sql
 
-.. |image165| image:: media/image123.png
+.. |image89| image:: media/image89.png
+   :width: 0.13540in
+.. |image123| image:: media/image123.png
    :width: 6.00000in
    :height: 1.56389in
-.. |image166| image:: media/image124.png
+.. |image124| image:: media/image124.png
    :width: 5.10208in
    :height: 2.33333in
-.. |image167| image:: media/image125.png
+.. |image125| image:: media/image125.png
    :width: 6.95176in
    :height: 2.71875in
-.. |image168| image:: media/image126.png
+.. |image126| image:: media/image126.png
    :width: 5.79931in
    :height: 1.68750in
-.. |image169| image:: media/image127.png
+.. |image127| image:: media/image127.png
    :width: 3.46875in
    :height: 2.72117in
-.. |image170| image:: media/image128.png
+.. |image128| image:: media/image128.png
    :width: 7.27287in
    :height: 3.78125in
-.. |image171| image:: media/image129.png
+.. |image129| image:: media/image129.png
    :width: 6.26311in
    :height: 0.76042in
-.. |image172| image:: media/image89.png
-   :width: 0.13540in

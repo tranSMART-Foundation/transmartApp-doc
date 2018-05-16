@@ -42,7 +42,7 @@ To download advanced workflow analyses as raw R data:
 
     A dialog box similar to the following appears:
 
-    |image272|
+    |image203|
 
 #.  Decide whether you want to open the file or save it to your hard
     drive, then click **OK**.
@@ -73,7 +73,7 @@ To review the R version information for an analysis:
 
     -   Information about the R installation:
 
-        |image273|
+        |image204|
 
     -   A table of the packages that are included in the installation.
         Although not all packages may be used, all are listed. The version
@@ -83,13 +83,13 @@ To review the R version information for an analysis:
 
         This sample shows a portion of the table:
 
-        |image274|
+        |image205|
 
 You can view the full table in grid format when you select the
 **Download raw R data** option. Just click **sessionInfo.txt** to open
 the file:
 
-|image275|
+|image206|
 
 Export R Code and Data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -115,7 +115,7 @@ To export R code and data so it is executable in R:
 
     A dialog box similar to the following appears:
 
-    |image276|
+    |image203|
 
 #.  Open the file and copy the R commands from the file jobcommands.txt.
 
@@ -215,13 +215,13 @@ Glossary
 
 **chi squared**
     Let the probabilities of various classes in a distribution be
-    |image277|, |image278|, ..., |image279|, with observed frequencies
-    |image280|, |image281|, ..., |image282|. 
+    |image207|, |image208|, ..., |image209|, with observed frequencies
+    |image210|, |image211|, ..., |image212|. 
     
-    The quantity:  |image283| ,
+    The quantity:  |image213| ,
 
     is therefore a measure of the deviation of a sample from expectation,
-    where |image284|\ is the sample size.
+    where |image214|\ is the sample size.
 
 **cohort**
     A group of subjects who share specific events or characteristics.
@@ -580,42 +580,39 @@ Glossary
 **y-axis**
     The vertical axis of a two-dimensional Cartesian coordinate system.
 
-.. |image272| image:: media/image203.png
+.. |image203| image:: media/image203.png
    :width: 6.00000in
    :height: 0.31736in
-.. |image273| image:: media/image204.png
+.. |image204| image:: media/image204.png
    :width: 5.10000in
    :height: 4.50000in
-.. |image274| image:: media/image205.png
+.. |image205| image:: media/image205.png
    :width: 6.00000in
    :height: 2.65625in
-.. |image275| image:: media/image206.png
+.. |image206| image:: media/image206.png
    :width: 5.80292in
    :height: 2.20833in
-.. |image276| image:: media/image203.png
-   :width: 6.00000in
-   :height: 0.39583in
-.. |image277| image:: media/image207.gif
+.. |image207| image:: media/image207.gif
    :width: 0.14444in
    :height: 0.14444in
-.. |image278| image:: media/image208.gif
+.. |image208| image:: media/image208.gif
    :width: 0.14444in
    :height: 0.14444in
-.. |image279| image:: media/image209.gif
+.. |image209| image:: media/image209.gif
    :width: 0.14444in
    :height: 0.14444in
-.. |image280| image:: media/image210.gif
+.. |image210| image:: media/image210.gif
    :width: 0.17083in
    :height: 0.14444in
-.. |image281| image:: media/image211.gif
+.. |image211| image:: media/image211.gif
    :width: 0.17083in
    :height: 0.14444in
-.. |image282| image:: media/image212.gif
+.. |image212| image:: media/image212.gif
    :width: 0.17083in
    :height: 0.14444in
-.. |image283| image:: media/image213.gif
+.. |image213| image:: media/image213.gif
    :width: 1.28958in
    :height: 0.48681in
-.. |image284| image:: media/image214.gif
+.. |image214| image:: media/image214.gif
    :width: 0.10556in
    :height: 0.14444in

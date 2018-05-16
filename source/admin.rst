@@ -37,12 +37,12 @@ The Administrator’s Console
 To access the console where you perform administrator tasks, click the
 **Admin** menu:
 
-|image238|
+|image180|
 
 On initialization, the administrator’s console displays the tranSMART
 access log:
 
-|image239|
+|image181|
 
 Tasks in the Administrator’s Console
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -250,7 +250,7 @@ To create a user account:
 
 #.  The Create User window appears:
 
-    |image243|
+    |image182|
 
 #.  Provide values for the fields in the Create User window, as follows:
 
@@ -393,7 +393,7 @@ Understanding Role / URL Mappings
 Roles are mapped to URLs on the Requestmap List window of the
 administrator’s console:
 
-|image246|
+|image183|
 
 URLs in this window are expressed as fragments of URLs called URL
 patterns. tranSMART determines the full URL to associate with a role by
@@ -494,7 +494,7 @@ To create a tranSMART user role:
     Role names must be upper case and must be prefixed with ``ROLE_`` — for
     example:
 
-    |image249|
+    |image184|
 
 .. note::
     In this example, a user assigned the role ``ROLE_VIEW_LOG`` can view 
@@ -524,7 +524,7 @@ Adding a Role to an Existing Request Map
 #.  Click **Show** for the mapping to which you want to add a new
     role:
 
-    |image251|
+    |image185|
 
 #.  Click **Edit**.
 
@@ -532,7 +532,7 @@ Adding a Role to an Existing Request Map
     after the rightmost role in the field, then type the name of the role
     to add to the map.
 
-    |image252|
+    |image186|
 
 #.  Click **Update**.
 
@@ -693,7 +693,7 @@ To create a group:
 
 #.  The following window appears:
 
-    |image254|
+    |image187|
 
 #.  In **Name**, assign a name to the group.
 
@@ -709,7 +709,7 @@ To create a group:
 In the following figure, the group Test Group has been created. Note
 that it currently has no members or privileges to access any studies.
 
-|image255|
+|image188|
 
 Managing a Group’s Users
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -722,7 +722,7 @@ To add users to a group, or remove users from a group:
 
 #.  The following window appears:
 
-    |image256|
+    |image189|
 
 #.  In **Search User**, type part or all of a user name, then select the
     name from the autotype dropdown.
@@ -740,7 +740,7 @@ To add users to a group, or remove users from a group:
     In the figure below, the specified user has been added to the group Test
     Group:
 
-    |image257|
+    |image190|
 
 #.  Click another administrative task, or leave the administrator’s
     console. No Save action is required.
@@ -809,7 +809,7 @@ To assign a user or group access privileges for a study:
 
 #.  The following window appears:
 
-    |image258|
+    |image191|
 
 #.  In **Search User/Group**, type part or all of a user or group name,
     then select the name from the autotype dropdown.
@@ -848,7 +848,7 @@ To grant access privileges to a study:
 
 #.  The following window appears:
 
-    |image259|
+    |image192|
 
 #.  In **Secure Object**, select the study or study category to which
     access is being granted.
@@ -911,7 +911,7 @@ To specify a timeframe:
     Alternatively, select the start date from the calendar that appears when
     you place the mouse pointer inside the Start Date or End Date text box.
 
-    |image260|
+    |image193|
 
 #.  Repeat Step 1 for the **End Date** field.
 
@@ -959,7 +959,7 @@ To create a program in the Program Explorer:
 
 #.  Click **Add new program** under the Welcome to tranSMART box:
 
-    |image262|
+    |image194|
 
 #.  Define the fields in the Create Program dialog box, then click
     **Save**.
@@ -978,7 +978,7 @@ To create a child object:
     The child objects that can be created under the parent appear as buttons
     in the upper-right corner of the Browse window; for example:
 
-    |image263|
+    |image195|
 
 #.  Click the appropriate button to open the Create… dialog box.
 
@@ -1018,19 +1018,19 @@ objects:
 +==========================================+===================================================================================================================================================================================+
 | Editing an object                        | To edit an object, click the object in the Program Explorer, then click the pencil icon that appears in the Browse window:                                                        |
 |                                          |                                                                                                                                                                                   |
-|                                          | |image264|                                                                                                                                                                        |
+|                                          | |image196|                                                                                                                                                                        |
 |                                          |                                                                                                                                                                                   |
 |                                          | Define the fields in the Edit… dialog box, then click **Save**.                                                                                                                   |
 +------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Deleting analyses, assays, and folders   | To delete an analysis, assay, or folder, click the object in the Program Explorer, then click the **Delete this…** button in the upper right corner of the window; for example:   |
 |                                          |                                                                                                                                                                                   |
-|                                          | |image265|                                                                                                                                                                        |
+|                                          | |image197|                                                                                                                                                                        |
 |                                          |                                                                                                                                                                                   |
 |                                          | **Note:** Only analyses, assays, and folders can be deleted from within the Browse window. Programs and studies must be deleted from the database directly.                       |
 +------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Deleting files                           | To delete a file from a folder, click the folder in the Program Explorer, then click the **Delete** button at the right:                                                          |
 |                                          |                                                                                                                                                                                   |
-|                                          | |image266|                                                                                                                                                                        |
+|                                          | |image198|                                                                                                                                                                        |
 +------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Common Features for Creating and Editing Objects
@@ -1045,21 +1045,21 @@ or Edit… dialog box:
 +=============================================+====================================================================================================================================================================================================================================================================================+
 | Required fields                             | Fields whose names are followed by a red asterisk are required:                                                                                                                                                                                                                    |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image267|                                                                                                                                                                                                                                                                         |
+|                                             | |image199|                                                                                                                                                                                                                                                                         |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Autocomplete fields                         | Shaded fields are autocomplete fields. Type one or more characters at the beginning of the value that you want to assign to the field, and tranSMART will display a list of text strings that begin with those characters. Select the value to assign from the displayed list.     |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image268|                                                                                                                                                                                                                                                                         |
+|                                             | |image200|                                                                                                                                                                                                                                                                         |
 |                                             |                                                                                                                                                                                                                                                                                    |
 |                                             | Alternatively, insert the cursor in the field and press the Down arrow key to select from an alphabetical list of suggested field values.                                                                                                                                          |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Multiple-value fields                       | Some autocomplete fields allow multiple values to be assigned. These fields contain the label **Add new** next to the field.                                                                                                                                                       |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image269|                                                                                                                                                                                                                                                                         |
+|                                             | |image201|                                                                                                                                                                                                                                                                         |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Removing a value from a multi-value field   | To remove a value from a multi-value field, click the blue **x** icon next to the value:                                                                                                                                                                                           |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image270|                                                                                                                                                                                                                                                                         |
+|                                             | |image202|                                                                                                                                                                                                                                                                         |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Close vs. Cancel buttons                    | Both buttons close the Create… or Edit… dialog box, and any changes you made in the dialog box are abandoned. However, with **Cancel**, a warning message appears before the dialog box is closed. With **Close**, the dialog box is closed immediately with no warning message.   |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1079,72 +1079,72 @@ electronically generated PDFs.
 Files can be uploaded to a folder via FTP and can be stored on the
 application server.
 
-.. |image238| image:: media/image180.png
+.. |image180| image:: media/image180.png
    :width: 6.00000in
    :height: 0.32569in
-.. |image239| image:: media/image181.png
+.. |image181| image:: media/image181.png
    :width: 6.00000in
    :height: 1.95903in
-.. |image243| image:: media/image182.png
+.. |image182| image:: media/image182.png
    :width: 5.58000in
    :height: 3.82000in
-.. |image246| image:: media/image183.png
+.. |image183| image:: media/image183.png
    :width: 6.00000in
    :height: 2.75985in
-.. |image249| image:: media/image184.png
+.. |image184| image:: media/image184.png
    :width: 2.29659in
    :height: 1.03112in
-.. |image251| image:: media/image185.png
+.. |image185| image:: media/image185.png
    :width: 6.00000in
    :height: 0.93206in
-.. |image252| image:: media/image186.png
+.. |image186| image:: media/image186.png
    :width: 2.69498in
    :height: 1.32015in
-.. |image254| image:: media/image187.png
+.. |image187| image:: media/image187.png
    :width: 4.56818in
    :height: 2.34606in
-.. |image255| image:: media/image188.png
+.. |image188| image:: media/image188.png
    :width: 3.59434in
    :height: 2.76216in
-.. |image256| image:: media/image189.png
+.. |image189| image:: media/image189.png
    :width: 6.49865in
    :height: 3.13590in
-.. |image257| image:: media/image190.png
+.. |image190| image:: media/image190.png
    :width: 4.36456in
    :height: 1.98309in
-.. |image258| image:: media/image191.png
+.. |image191| image:: media/image191.png
    :width: 6.12632in
    :height: 2.80465in
-.. |image259| image:: media/image192.png
+.. |image192| image:: media/image192.png
    :width: 6.00000in
    :height: 2.80765in
-.. |image260| image:: media/image193.png
+.. |image193| image:: media/image193.png
    :width: 3.36416in
    :height: 2.12473in
-.. |image262| image:: media/image194.png
+.. |image194| image:: media/image194.png
    :width: 4.29167in
    :height: 3.44178in
-.. |image263| image:: media/image195.png
+.. |image195| image:: media/image195.png
    :width: 4.67500in
    :height: 0.52292in
-.. |image264| image:: media/image196.png
+.. |image196| image:: media/image196.png
    :width: 4.67500in
    :height: 1.17014in
-.. |image265| image:: media/image197.png
+.. |image197| image:: media/image197.png
    :width: 4.76042in
    :height: 0.62747in
-.. |image266| image:: media/image198.png
+.. |image198| image:: media/image198.png
    :width: 4.66542in
    :height: 0.74916in
-.. |image267| image:: media/image199.png
+.. |image199| image:: media/image199.png
    :width: 2.73924in
    :height: 0.29163in
-.. |image268| image:: media/image200.png
+.. |image200| image:: media/image200.png
    :width: 4.24947in
    :height: 0.78115in
-.. |image269| image:: media/image201.png
+.. |image201| image:: media/image201.png
    :width: 4.22864in
    :height: 0.87489in
-.. |image270| image:: media/image202.png
+.. |image202| image:: media/image202.png
    :width: 4.22864in
    :height: 0.87489in

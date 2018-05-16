@@ -6,7 +6,7 @@
 The transmartApp documentation
 ==============================
 
-|image1|
+|image2|
  
 This version 16.3 of the tranSMART documentation was updated by the I2b2 tranSMART Foundation
 extending a version created for version 16.2 by The Hyve
@@ -31,7 +31,7 @@ The following was originally stated and still applies:
     This document is licensed under the Creative Commons Attribution 3.0
     Unported License.
 
-    |image2|
+    |image3|
 
     **You are free:**
 
@@ -78,12 +78,12 @@ The following was originally stated and still applies:
    admin
    appendices
 
-.. |image0| image:: media/image1.png
+.. |image1| image:: media/image1.png
    :width: 9.10417in
    :height: 11.73750in
-.. |image1| image:: media/image2.jpg
+.. |image2| image:: media/image2.jpg
    :width: 2.91250in
    :height: 1.04167in
-.. |image2| image:: media/image3.png
+.. |image3| image:: media/image3.png
    :width: 1.50000in
    :height: 0.52000in

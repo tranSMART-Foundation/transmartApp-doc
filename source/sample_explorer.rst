@@ -28,7 +28,7 @@ of the pane.
 
 Click a filter to initiate a sample search.
 
-|image173|
+|image130|
 
 Note that the number of samples that are associated with a filter appear
 in parentheses after the filter name.
@@ -48,7 +48,7 @@ After you select a `Select a Primary Search Filter`_:
 The following figure illustrates the sections of the Sample Explorer
 after a primary search filter has been selected:
 
-|image174|
+|image131|
 
 Tasks you can perform in the Sample Explorer window include:
 
@@ -83,7 +83,7 @@ logical operators AND and OR, as follows:
 
    (RBM OR Gene Expression) AND (Colorectal Cancer OR Gastric Cancer)
 
-   |image176|
+   |image132|
 
 Manage the Search Result List
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,7 +97,7 @@ To sort the result list by the contents of a column:
 
 #.  Click the right side of the column heading to pull down the menu:
 
-    |image177|
+    |image133|
 
 #.  Click **Sort Ascending** or **Sort Descending**.
 
@@ -111,7 +111,7 @@ To add and remove columns:
 #.  Hover the mouse pointer over **Columns** to display the submenu of
     column headings:
 
-    |image178|
+    |image134|
 
 #.  Check or clear the check boxes to add or remove columns from the
     search result.
@@ -128,45 +128,45 @@ To group search results by the contents of a particular column:
 
 #.  Click **Group by This Field**.
 
-    |image180|
+    |image135|
 
 #.  To view the samples in all groups click **Expand All** in the upper-right corner of the search result.
 
-    |image181|
+    |image136|
 
 #.  To view the samples in a particular group click the plus-sign icon next to the group name:
 
-    |image182|
+    |image137|
 
 #.  To ungroup the search result pull down the menu and click the Show in Groups menu item:
 
-    |image183|
+    |image138|
 
 
-.. |image173| image:: media/image130.png
+.. |image130| image:: media/image130.png
    :width: 6.00000in
    :height: 2.77986in
-.. |image174| image:: media/image131.png
+.. |image131| image:: media/image131.png
    :width: 6.50208in
    :height: 3.84375in
-.. |image176| image:: media/image132.png
+.. |image132| image:: media/image132.png
    :width: 2.47917in
    :height: 2.00000in
-.. |image177| image:: media/image133.png
+.. |image133| image:: media/image133.png
    :width: 2.00000in
    :height: 1.39000in
-.. |image178| image:: media/image134.png
+.. |image134| image:: media/image134.png
    :width: 3.42917in
    :height: 2.79848in
-.. |image180| image:: media/image135.png
+.. |image135| image:: media/image135.png
    :width: 2.28000in
    :height: 1.79000in
-.. |image181| image:: media/image136.png
+.. |image136| image:: media/image136.png
    :width: 4.78000in
    :height: 0.96000in
-.. |image182| image:: media/image137.png
+.. |image137| image:: media/image137.png
    :width: 4.78000in
    :height: 0.96000in
-.. |image183| image:: media/image138.png
+.. |image138| image:: media/image138.png
    :width: 2.26956in
    :height: 2.60953in

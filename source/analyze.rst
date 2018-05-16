@@ -11,7 +11,7 @@ Overview of the UI
 
 The following figure shows key areas of the Analyze interface:
 
-|image27|
+|image22|
 
 The page is divided into two panes:
 
@@ -106,7 +106,7 @@ The following table describes the tabs and buttons in the right pane of Analyze:
     **MetaCore Enrichment Analysis tab** 
         Provide enrichment of a gene list to evaluate the significance of the genes to the studied phenotype and/or patient cohort.   
     
-        See :ref:`metacore-enrichtment-analysis-label`.
+        See :ref:`metacore-enrichment-analysis-label`.
 
     **Save Subset button**   
         Save the subset definition. This allows you to regenerate the comparison at a 
@@ -122,7 +122,7 @@ The following table describes the tabs and buttons in the right pane of Analyze:
     If the tabs at the rightmost end of the tab bar are not visible, try shrinking 
     the left pane by dragging the vertical border to the left:
     
-    |image29|
+    |image23|
 
 Using Analyze — Basics
 ----------------------
@@ -147,7 +147,7 @@ The Navigation Tree
 
 The Analyze navigation tree is located in the Navigate Terms pane:
 
-|image31|
+|image24|
 
 The navigation tree looks and works much like Microsoft Windows
 Explorer. Windows Explorer is a hierarchy of folders, sub-folders, and
@@ -163,7 +163,7 @@ The following figure shows typical top-level nodes of a study. Some
 studies may not require all of these nodes, and others may require
 additional nodes:
 
-|image32|
+|image25|
 
 .. note::
 	 The nodes you see on your screen may differ from those listed here. Only those domains present in your data will appear in your navigation tree.   
@@ -178,7 +178,7 @@ information about the concept:
    of subjects to whom that node applies. For example, in the figure
    below, there are a total of 167 subjects in the study:
 
-|image34|
+|image26|
 
 Nodes within the Across Trials folder do not indicate the number of
 subjects associated with the node.
@@ -190,7 +190,7 @@ subjects associated with the node.
    The three types of data values and their associated icons are
    illustrated below:
 
-   |image35|
+   |image27|
 
 Selecting Studies for Analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -201,11 +201,11 @@ Navigate Terms section of the left pane of the Analyze window.
 You can select data from a single study, or you can select data from
 multiple studies located in the Across Trials folder.
 
-|image36|
+|image28|
 
-To select a study, click the **+** icon (|image37|) next the study name:
+To select a study, click the **+** icon (|image29|) next the study name:
 
-|image38|
+|image30|
 
 You can then drill down into the study to find the data to use to define
 the cohorts for the analysis.
@@ -285,10 +285,10 @@ access rights to the study.
 To view a description of a study: 
 
 #.  in Analyze, open the top level node for the list of 
-    studies you are interested in; for example, click the **+** icon (|image40|)
+    studies you are interested in; for example, click the **+** icon (|image31|)
     next to Public Studies to open the list of public studies:
 
-    |image41|
+    |image32|
 
 #.  Right-click the particular study you are interested in.
 
@@ -315,7 +315,7 @@ In the Analyze navigation tree, serial data is represented by several
 leaves of the same type in a folder, with each leaf representing a
 condition with a label; for example:
 
-|image43|
+|image34|
 
 In the tranSMART database, each condition can be described by a numeric
 value (such as for time series or dose response) or by a categorical
@@ -362,7 +362,7 @@ Single Study Example
 In the following example from a single asthma study, female patients
 have been dragged into Subset 1 and male patients into Subset 2:
 
-|image44|
+|image35|
 
 Across Trials Example
 ^^^^^^^^^^^^^^^^^^^^^
@@ -374,7 +374,7 @@ Subset 1 and Subset 2, the cohorts include only males and females from
 the asthma studies in the Across Trials folder, not males and females
 from any of the other studies in the Across Trials folder.
 
-|image45|
+|image36|
 
 Specifying a Numeric Value
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -382,7 +382,7 @@ Specifying a Numeric Value
 When you drag a numeric concept into a subset definition box, the Set
 Value dialog box appears:
 
-|image46|
+|image37|
 
 Use the Set Value dialog to specify how you want to constrain the
 numeric values to use in the subset definition. To do so, first select
@@ -411,7 +411,7 @@ one of the following choices:
         
         -   Select one of the following numeric operators in the **Please select operator dropdown**:   
         
-            |image47|
+            |image38|
         
         -   In **Please enter value**, type the numeric value that the operator applies to. For example, 
             to constrain the ages of subjects to 50 years or younger, select LESS THAN OR
@@ -427,7 +427,7 @@ one of the following choices:
     When finished defining the numeric constraint on the Set Value dialog,
     be sure to click **OK** and not press the **Enter** key. Pressing **Enter** will 
     activate the subset button that has focus — the **Exclude** button in the example below:
-    |image49|                                                                                                                                                                                                                                          |
+    |image39|                                                                                                                                                                                                                                          |
 
 
 Viewing the Numeric Values Associated with a Concept
@@ -448,7 +448,7 @@ represents fewer than 50 subjects. You may want to use these weight
 parameters to help you determine the value to set for the weight
 concept.
 
-|image50|
+|image40|
 
 You can get more specific information about the number of subjects
 represented by a particular bin and the average of the values in the bin
@@ -456,7 +456,7 @@ by hovering the mouse cursor over the bin you are interested in. For
 example, in the following figure, the largest bin represents 49 subjects
 with an average weight of 68.7 kg:
 
-|image51|
+|image41|
 
 Joining Multiple Criteria for a Subset Definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -472,7 +472,7 @@ The rules for joining multiple criteria are as follows:
 For example, the following definition boxes select only male subjects,
 AND males whose weights are between 65 kg and 90 kg:
 
-|image52|
+|image42|
 
 -  Criteria within the same subset definition box are joined by an OR
    operator.
@@ -480,7 +480,7 @@ AND males whose weights are between 65 kg and 90 kg:
 For example, to use the extreme ends of the weight scale for your weight
 criterion, you might add the following to a definition box:
 
-|image53|
+|image43|
 
 These criteria select subjects whose weight is either 50 kg or less, OR
 100 kg or greater.
@@ -492,7 +492,7 @@ These criteria select subjects whose weight is either 50 kg or less, OR
   between
 | 50 kg and 100 kg:
 
-|image54|
+|image44|
 
 Note that when you click the **Exclude** button, the button label
 changes to **Include**, allowing you to join the criteria in the box
@@ -511,9 +511,9 @@ the criterion and select either **Delete** or **Set Value**.
 to review the node before modifying or deleting it.
 
 To remove the entire contents of a subset definition box from the subset
-definition, click the **X** icon (|image56|) above the box:
+definition, click the **X** icon (|image45|) above the box:
 
-|image57|
+|image46|
 
 Saving Subset Definitions
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -529,11 +529,11 @@ To save a subset definition:
 
 #.  Click the **Save Subset** button to save the criteria:
 
-    |image58|
+    |image47|
 
 #.  The Save Subsets dialog box appears:
 
-    |image59|
+    |image48|
 
 #.  Enter a description of the subsets in the **Description** field.
 
@@ -549,7 +549,7 @@ To save a subset definition:
 #.  The subset information displays immediately in the Workspace tab in the
     **Subset** Manager portion of the Workspace page:
 
-    |image60|
+    |image49|
 
 For information about the Workspace tab, including retrieving saved
 subsets, see `Retrieving Saved Subset Definitions`_. 
@@ -563,7 +563,7 @@ definition can be retrieved.
 To retrieve a saved subset definition, click the corresponding radio
 button in the **Use** column:
 
-|image61|
+|image50|
 
 The retrieved subset definition remains in the Subset Manager until you
 explicitly delete it.
@@ -623,9 +623,9 @@ The following list describes the features of the Subset Manager:
         Indicates whether the subset definition will be accessible by others or only by the person who created 
         and saved the subset definition or by an administrator. The Public setting is the default when the subset definition is saved. 
     
-        -   **Public** ( |image62| ): Accessible by the user who saved the subset definition and others. 
+        -   **Public** ( |image51| ): Accessible by the user who saved the subset definition and others. 
     
-        -   **Private** ( |image63| ): Accessible only by the user who saved the subset definition. 
+        -   **Private** ( |image52| ): Accessible only by the user who saved the subset definition. 
     
         **Note:** If a subset is based on a study that a user does not have sufficient privileges to see, the 
         user will not be able to restore the subset definition to the subset definition boxes. Seeing a 
@@ -661,7 +661,7 @@ To export data to your local machine or a network location:
 #.  Optionally, drag additional nodes from the study into the export
     criteria to filter the data to export:
 
-    |image64|
+    |image53|
 
     Because some studies have hundreds of concepts associated with each
     patient, adding one or more filters allows you to limit the exported
@@ -669,7 +669,7 @@ To export data to your local machine or a network location:
 
 #.  Select the checkbox for the type of data to export:
 
-    |image65|
+    |image54|
 
     Above, only clinical and low dimensional data is being exported.
 
@@ -696,14 +696,14 @@ A list of all exported jobs over the last seven days is displayed when
 you click the **Export Jobs** tab. The list includes all jobs:
 successes, errors, and pending jobs.
 
-|image66|
+|image55|
 
 The list contains the following columns:
 
     **Name**  
         The name of the export job. Jobs use the naming convention:    
         *User - Type of Job Run - Job ID*: 
-        |image67|   
+        |image56|   
 
     **Query Summary** 
         Displays the query that was run to generate the subset.    
@@ -758,25 +758,25 @@ To export data using the Galaxy Export tab:
 
 #.  Click the **Galaxy Export** tab:
 
-    |image69|
+    |image57|
 
 #.  When the Status column for the exported data shows **Completed**,
     click the name of the job to export to Galaxy:
 
-    |image70|
+    |image58|
 
 #.  The Name dialog box appears.
 
 #.  Type the name of the Galaxy data library where the data will be
     exported, then click **OK**.
 
-    |image71|
+    |image59|
 
 #.  Click the **Refresh** button at the bottom of the page.
 
 #.  The status of the export is updated as shown below:
 
-    |image72|
+    |image60|
 
 #.  When the export to Galaxy is complete, the completion status is
     reflected in the **exportStatus** column.
@@ -794,133 +794,133 @@ To view sample data for the cohort(s) defined in Analysis:
 
 #.  Click the **Sample Details** tab:
 
-    |image73|
+    |image61|
 
     The Sample Explorer opens, displaying any cohort data that has been
     loaded in the Sample Explorer:
 
-    |image74|
+    |image62|
 
 For information about this page of the Sample Explorer, 
 see :ref:`view-and-refine-sample-search-results-label`.
 
 
-.. |image27| image:: media/image22.png
+.. |image22| image:: media/image22.png
    :width: 6.96791in
    :height: 2.86458in
-.. |image29| image:: media/image23.png
+.. |image23| image:: media/image23.png
    :width: 5.32961in
    :height: 1.10417in
-.. |image31| image:: media/image24.png
+.. |image24| image:: media/image24.png
    :width: 3.21835in
    :height: 1.46857in
-.. |image32| image:: media/image25.png
+.. |image25| image:: media/image25.png
    :width: 2.83298in
    :height: 1.21860in
-.. |image34| image:: media/image26.png
+.. |image26| image:: media/image26.png
    :width: 2.33304in
    :height: 0.19789in
-.. |image35| image:: media/image27.png
+.. |image27| image:: media/image27.png
    :width: 5.78053in
    :height: 3.57247in
-.. |image36| image:: media/image28.png
+.. |image28| image:: media/image28.png
    :width: 3.19653in
    :height: 1.66871in
-.. |image37| image:: media/image29.png
-.. |image38| image:: media/image30.png
+.. |image29| image:: media/image29.png
+.. |image30| image:: media/image30.png
    :width: 3.09148in
    :height: 0.89583in
-.. |image40| image:: media/image31.png
-.. |image41| image:: media/image32.png
+.. |image31| image:: media/image31.png
+.. |image32| image:: media/image32.png
    :width: 3.16627in
    :height: 0.94780in
-.. |image42| image:: media/image33.png
+.. |image33| image:: media/image33.png
    :width: 3.08295in
    :height: 0.91655in
-.. |image43| image:: media/image34.png
+.. |image34| image:: media/image34.png
    :width: 2.57292in
    :height: 1.28125in
-.. |image44| image:: media/image35.png
+.. |image35| image:: media/image35.png
    :width: 6.77000in
    :height: 2.37000in
-.. |image45| image:: media/image36.png
+.. |image36| image:: media/image36.png
    :width: 6.79000in
    :height: 3.29000in
-.. |image46| image:: media/image37.png
+.. |image37| image:: media/image37.png
    :width: 4.15417in
    :height: 1.67500in
-.. |image47| image:: media/image38.png
+.. |image38| image:: media/image38.png
    :width: 2.00279in
    :height: 1.12222in
-.. |image49| image:: media/image39.png
+.. |image39| image:: media/image39.png
    :width: 2.83333in
    :height: 0.73958in
-.. |image50| image:: media/image40.png
+.. |image40| image:: media/image40.png
    :width: 2.67708in
    :height: 1.94097in
-.. |image51| image:: media/image41.png
+.. |image41| image:: media/image41.png
    :width: 2.67708in
    :height: 1.94097in
-.. |image52| image:: media/image42.png
+.. |image42| image:: media/image42.png
    :width: 3.26560in
    :height: 1.47188in
-.. |image53| image:: media/image43.png
+.. |image43| image:: media/image43.png
    :width: 3.24375in
    :height: 0.79688in
-.. |image54| image:: media/image44.png
+.. |image44| image:: media/image44.png
    :width: 3.27188in
    :height: 1.50000in
-.. |image56| image:: media/image45.png
+.. |image45| image:: media/image45.png
    :width: 0.23958in
    :height: 0.18175in
-.. |image57| image:: media/image46.png
+.. |image46| image:: media/image46.png
    :width: 3.64538in
    :height: 0.91655in
-.. |image58| image:: media/image47.png
+.. |image47| image:: media/image47.png
    :width: 6.00000in
    :height: 2.47639in
-.. |image59| image:: media/image48.png
+.. |image48| image:: media/image48.png
    :width: 2.71092in
    :height: 1.13542in
-.. |image60| image:: media/image49.png
+.. |image49| image:: media/image49.png
    :width: 6.00000in
    :height: 1.73472in
-.. |image61| image:: media/image50.png
+.. |image50| image:: media/image50.png
    :width: 6.00000in
    :height: 1.73472in
-.. |image62| image:: media/image51.png
+.. |image51| image:: media/image51.png
    :width: 0.24997in
    :height: 0.21872in
-.. |image63| image:: media/image52.png
+.. |image52| image:: media/image52.png
    :width: 0.15623in
    :height: 0.16665in
-.. |image64| image:: media/image53.png
+.. |image53| image:: media/image53.png
    :width: 6.00000in
    :height: 1.33819in
-.. |image65| image:: media/image54.png
+.. |image54| image:: media/image54.png
    :width: 6.00000in
    :height: 1.91181in
-.. |image66| image:: media/image55.png
+.. |image55| image:: media/image55.png
    :width: 6.00000in
    :height: 1.58889in
-.. |image67| image:: media/image56.png
+.. |image56| image:: media/image56.png
    :width: 2.34000in
    :height: 1.25000in
-.. |image69| image:: media/image57.png
+.. |image57| image:: media/image57.png
    :width: 6.00000in
    :height: 0.79514in
-.. |image70| image:: media/image58.png
+.. |image58| image:: media/image58.png
    :width: 4.97854in
    :height: 0.88531in
-.. |image71| image:: media/image59.png
+.. |image59| image:: media/image59.png
    :width: 2.64550in
    :height: 1.18735in
-.. |image72| image:: media/image60.png
+.. |image60| image:: media/image60.png
    :width: 6.00000in
    :height: 0.79514in
-.. |image73| image:: media/image61.png
+.. |image61| image:: media/image61.png
    :width: 6.00000in
    :height: 1.08194in
-.. |image74| image:: media/image62.png
+.. |image62| image:: media/image62.png
    :width: 6.00000in
    :height: 2.08125in

@@ -111,7 +111,7 @@ those characters. The search text is not case sensitive.
 The following figure shows a list of the keywords displayed when the
 characters **il7** are typed and the category **Gene** is selected:
 
-|image10|
+|image9|
 
 Up to 15 keywords can be displayed at one time. If you don’t see the one
 you want, type more characters into the field.
@@ -120,7 +120,7 @@ Note that the search looks for matches based on the characters at the
 beginning of a keyword (in bold) or, as shown below, at the beginning of
 a keyword synonym (in parentheses).
 
-|image11|
+|image10|
 
 Click the keyword you want, but do not press Enter or Return. When you click the keyword, the following actions occur:
 
@@ -129,7 +129,7 @@ Click the keyword you want, but do not press Enter or Return. When you click the
 
 -  The search filter appears in the Active Filters area:
 
-|image12|
+|image11|
 
 You can add more filters by repeating the steps above, by selecting
 filters from the Filter Browser, or by a combination of these actions.
@@ -151,7 +151,7 @@ For example, after you type the following Free Text keyword and press
 Enter, tranSMART searches for data sources containing *primary breast tumor* 
 but not those containing just *breast tumor*:
 
-|image14|
+|image12|
 
 Using the Filter Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -165,7 +165,7 @@ the `keyword search <#keyword-search>`__ field, into the
 
 To work with the Filter Browser:
 
-|image15|
+|image13|
 
 #.  Click the filter icon in the **Active Filters** box
 
@@ -195,11 +195,11 @@ the Browse page is modified to satisfy the entire search query.
 The following search query in Active Filters will return data sources
 involving melanoma and the human protein MAGA4 or MAGB2:
 
-|image16|
+|image14|
 
 Note the following controls in the Active Filters pane:
 
-|image17|
+|image15|
 
 .. _viewing-studies-in-the-program-explorer-tree-label:
 
@@ -217,7 +217,7 @@ The following illustration shows the hierarchy of objects in the Program
 Explorer tree. Note that each node in the tree is associated with an
 icon that represents the type of object at that node:
 
-|image19|
+|image16|
 
 **Program** is the top-level component of the hierarchy whose purpose is
 to group related studies together. Most of the time a program is defined
@@ -228,7 +228,7 @@ were performed. It can be a clinical trial, a preclinical study, or a
 discovery experiment.
 
 .. note::
-	 Icons for studies that can be opened in Analyze view are designated by a yellow star ( |image21| ) on the icon.   
+	 Icons for studies that can be opened in Analyze view are designated by a yellow star ( |image17| ) on the icon.   
 
 **Assay** is an investigative procedure for qualitatively or
 quantitatively assessing the amount or functional activity of an entity.
@@ -265,7 +265,7 @@ To view a file in a folder:
 #.  To export files click the **Add to Export** button at the far right of a file to
     export, or click **Export all** to export all files in the folder:
 
-|image22|
+|image18|
 
 The files are not exported immediately. Instead, they are added to the
 Export Cart.
@@ -277,7 +277,7 @@ Export Cart.
     files, click the **Export Cart** button at the top of the Browse
     window:
 
-    |image23|
+    |image19|
 
 #.  In the Export Files dialog box, click **Export Selected Files**.
 
@@ -298,15 +298,15 @@ Opening a Study in Analyze View
 
 Some studies that have been selected in the Program Explorer tree can be
 opened in Analyze view. The icon for these studies is displayed with a
-yellow star ( |image24| ), as shown below:
+yellow star ( |image17| ), as shown below:
 
-|image25|
+|image20|
 
 To open these studies in Analyze View, first click the study in the
 Program Explorer tree, then click the **Open in Analyze view** button as
 shown below:
 
-|image26|
+|image21|
 
 tranSMART displays the Comparison tab of the Analyze window and opens
 the study you were just viewing in the Browse window.
@@ -322,45 +322,42 @@ query are now restricted to that single study.
 .. |image8| image:: media/image8.png
    :width: 6.00000in
    :height: 2.04306in
-.. |image10| image:: media/image9.png
+.. |image9| image:: media/image9.png
    :width: 4.58276in
    :height: 0.77074in
-.. |image11| image:: media/image10.png
+.. |image10| image:: media/image10.png
    :width: 4.58276in
    :height: 0.53118in
-.. |image12| image:: media/image11.png
+.. |image11| image:: media/image11.png
    :width: 3.20793in
    :height: 1.10403in
-.. |image14| image:: media/image12.png
+.. |image12| image:: media/image12.png
    :width: 3.64538in
    :height: 0.29163in
-.. |image15| image:: media/image13.png
+.. |image13| image:: media/image13.png
    :width: 2.69758in
    :height: 0.48952in
-.. |image16| image:: media/image14.png
+.. |image14| image:: media/image14.png
    :width: 3.23698in
    :height: 1.16667in
-.. |image17| image:: media/image15.png
+.. |image15| image:: media/image15.png
    :width: 6.00000in
    :height: 2.25764in
-.. |image19| image:: media/image16.png
+.. |image16| image:: media/image16.png
    :width: 1.66667in
    :height: 1.89583in
-.. |image21| image:: media/image17.png
+.. |image17| image:: media/image17.png
    :width: 0.15623in
    :height: 0.16665in
-.. |image22| image:: media/image18.png
+.. |image18| image:: media/image18.png
    :width: 6.00000in
    :height: 1.26528in
-.. |image23| image:: media/image19.png
+.. |image19| image:: media/image19.png
    :width: 4.23905in
    :height: 0.44786in
-.. |image24| image:: media/image17.png
-   :width: 0.15623in
-   :height: 0.16665in
-.. |image25| image:: media/image20.png
+.. |image20| image:: media/image20.png
    :width: 2.62467in
    :height: 0.78115in
-.. |image26| image:: media/image21.png
+.. |image21| image:: media/image21.png
    :width: 6.00000in
    :height: 2.69653in

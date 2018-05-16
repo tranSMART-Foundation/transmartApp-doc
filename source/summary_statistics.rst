@@ -24,13 +24,13 @@ following sections:
 
     For example:
 
-    |image76|
+    |image63|
 
     A table showing the number of subjects in each subset that match the subset criteria.
 
     For example:
 
-    |image77|
+    |image64|
 
     In this example, 58 subjects matched the criteria for Subset 1 and
     63 matched the criteria for Subset 2. No (0) subjects matched the
@@ -41,7 +41,7 @@ following sections:
 
     This example shows the age portion of the demographics data only:
 
-    |image78|
+    |image65|
 
     Analyses of the concepts you added to the subsets from the navigation
     tree. The data displayed reflects the data used to generate the
@@ -50,15 +50,15 @@ following sections:
 The next examples show analysis of concepts for a non-linked event, a
 linked event, and NGS data.
 
-    |image79|
+    |image66|
 
     **Example 1: Non-linked event.**: this example shows the analysis of the chemotherapy concept.
 
-    |image80|
+    |image67|
 
     **Example 2: Linked event.**: this example shows the analysis of concepts for adverse events.
 
-    |image81|
+    |image68|
 
     **Example 3: NGS data.**: this example shows the analysis of concepts for description of planned arm.
 
@@ -68,7 +68,7 @@ Significance Tests
 The analyses include the results of significance testing that Analyze
 performs:
 
-|image82|
+|image69|
 
 Significance testing is designed to indicate whether the reliability of
 the statistics is 95% or greater, based on p-value.
@@ -101,7 +101,7 @@ circumstances:
     show statistics by gender, tables similar to the following would
     result:
 
-    |image83|
+    |image70|
 
     In this case, the chi-squared function doesn’t return meaningful
     results.
@@ -116,18 +116,18 @@ follows:
 
 #.  Select a cohort from the navigation tree and drag it into a subset; for example:
 
-    |image84|
+    |image71|
 
 #.  Click the **Summary Statistics** tab.
 
 #.  Drag and drop a folder from the navigation tree into the empty page;
     for example:
 
-    |image85|
+    |image72|
 
 #.  tranSMART calculates the results and displays the data for the given subset and concept:
 
-    |image86|
+    |image73|
 
 .. note::
     The Summary Statistics allows you to use high dimensional data as well, see :ref:`hidome-label`.
@@ -173,7 +173,7 @@ split.
 The comparison is placed at the top of the Summary Statistics view,
 above the demographic definitions plus any other earlier comparisons:
 
-|image87|
+|image74|
 
 .. note::
     To keep the size of the preceding figure within production limits, 
@@ -190,7 +190,7 @@ You can print the contents of Summary Statistics view as shown below.
 
 #.  In Summary Statistics view, click the **Print** button:
 
-    |image90|
+    |image75|
 
     The entire contents of Summary Statistics view appear in a separate browser window.
 
@@ -213,7 +213,7 @@ Access Grid View as follows:
 
 #.  Click **Grid View**.
 
-    |image91|
+    |image76|
 
 #.  Optionally, you can drag and drop additional points of comparison
     into the grid, and new columns will appear for that data.
@@ -222,7 +222,7 @@ Access Grid View as follows:
 
 Sample of Grid View for a public study:
 
-|image92|
+|image77|
 
 .. note::
     The ID assigned in the **Subject** column is the internal tranSMART ID that is assigned at the time of data loading. 
@@ -234,67 +234,67 @@ Grid View Display Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -   **Sort the grid by a specific column.** Click the down-arrow icon
-    (|image94|) next to the column heading you want to sort by, then
+    (|image78|) next to the column heading you want to sort by, then
     select **Sort Ascending** or **Sort Descending**.
 
 -   **Hide or redisplay columns.** Click the down-arrow icon next to any
     column heading, click **Columns** as shown below, then select or
     deselect columns to hide or redisplay:
 
-    |image95|
+    |image79|
 
 If a column name does not appear in the menu, you have not included the
 associated concept in the analysis. For example, Diagnosis has not been
 included in the analysis above.
 
-.. |image76| image:: media/image63.png
+.. |image63| image:: media/image63.png
    :width: 6.00000in
    :height: 0.80486in
-.. |image77| image:: media/image64.png
+.. |image64| image:: media/image64.png
    :width: 1.68729in
    :height: 0.73949in
-.. |image78| image:: media/image65.png
+.. |image65| image:: media/image65.png
    :width: 6.00000in
    :height: 2.29444in
-.. |image79| image:: media/image66.png
+.. |image66| image:: media/image66.png
    :width: 6.00000in
    :height: 2.35347in
-.. |image80| image:: media/image67.png
+.. |image67| image:: media/image67.png
    :width: 6.00000in
    :height: 5.18819in
-.. |image81| image:: media/image68.png
+.. |image68| image:: media/image68.png
    :width: 5.87106in
    :height: 4.45833in
-.. |image82| image:: media/image69.png
+.. |image69| image:: media/image69.png
    :width: 3.01004in
    :height: 0.77074in
-.. |image83| image:: media/image70.png
+.. |image70| image:: media/image70.png
    :width: 6.00000in
    :height: 1.38264in
-.. |image84| image:: media/image71.png
+.. |image71| image:: media/image71.png
    :width: 6.00000in
    :height: 1.42500in
-.. |image85| image:: media/image72.png
+.. |image72| image:: media/image72.png
    :width: 6.00000in
    :height: 2.34792in
-.. |image86| image:: media/image73.png
+.. |image73| image:: media/image73.png
    :width: 6.00000in
    :height: 4.50764in
-.. |image87| image:: media/image74.png
+.. |image74| image:: media/image74.png
    :width: 6.37851in
    :height: 2.04167in
-.. |image90| image:: media/image75.png
+.. |image75| image:: media/image75.png
    :width: 6.00000in
    :height: 1.42917in
-.. |image91| image:: media/image76.png
+.. |image76| image:: media/image76.png
    :width: 3.98908in
    :height: 0.57285in
-.. |image92| image:: media/image77.png
+.. |image77| image:: media/image77.png
    :width: 6.00000in
    :height: 1.93542in
-.. |image94| image:: media/image78.png
+.. |image78| image:: media/image78.png
    :width: 0.10417in
    :height: 0.17361in
-.. |image95| image:: media/image79.png
+.. |image79| image:: media/image79.png
    :width: 3.17669in
    :height: 3.46832in

@@ -21,7 +21,7 @@ or any combination.
 
 Features of the GWAS page are shown below:
 
-|image200|
+|image151|
 
 Keyword searches and the Active Filters pane work as they do with the
 Browse tool. For information, see *Defining Search Filters* (page 4) and
@@ -32,7 +32,7 @@ GWAS Filter Browsers
 
 The Filter Browser pane contains the following GWAS filter categories:
 
-|image201|
+|image152|
 
 There are two types of GWAS filter browsers:
 
@@ -54,14 +54,14 @@ To select a filter from a resource browser:
 #.  Click the name of the filter browser category to open; for
     example, Study as shown below:
 
-    |image202|
+    |image153|
 
 #.  In the browser popup window, filter options are listed on the left.
     Select a filter by clicking the plus sign (**+**) to the right of the
     filter name. The selected filter is added to the right part of the
     browser.
 
-    |image203|
+    |image154|
 
     With filters that have long names, note that:
 
@@ -79,17 +79,17 @@ To select a filter from a resource browser:
         whose names include the characters, in a contiguous string, anywhere
         in the name (not case-sensitive):
 
-        |image204|
+        |image155|
 
     -   Select all the filters in the list by clicking **Add all**:
 
-        |image205|
+        |image156|
 
     -   Remove a selected filter by clicking the minus sign (**–**) to the
         right of the selected filter name, or remove all selected filters by
         clicking **Remove all**:
 
-        |image206|
+        |image157|
 
 #.  When finished selecting filters from this browser, click **Select**
     at the bottom right of the browser. Your selections will be added to
@@ -120,7 +120,7 @@ To specify a region of interest:
 
     The Region of Interest browser appears:
 
-    |image208|
+    |image158|
 
 #.  Define the filter as described in the following table:
 
@@ -149,7 +149,7 @@ To specify a region of interest:
     |                 |                                                                                                                                                                                                                                            |
     |                 | For example, the following selects a region that spans 50 base pairs above and below the gene IL7, based on Human Genome version 19:                                                                                                       |
     |                 |                                                                                                                                                                                                                                            |
-    |                 | |image209|                                                                                                                                                                                                                                 |
+    |                 | |image159|                                                                                                                                                                                                                                 |
     |                 |                                                                                                                                                                                                                                            |
     |                 | 1. Optionally, specify a p-value cutoff in the **p-value** field. Only those results with a p-value at or below the cutoff are returned. If you do not specify a p-value cutoff, all matches within the region of interest are returned.   |
     |                 |                                                                                                                                                                                                                                            |
@@ -177,7 +177,7 @@ To specify a region of interest:
     |                 |                                                                                                                                                                                                                                            |
     |                 | For example, the following selects a region of interest that spans the base pair at position 57694854 and the 500 base pairs above it within chromosome 12, based on Human Genome version 19:                                              |
     |                 |                                                                                                                                                                                                                                            |
-    |                 | |image210|                                                                                                                                                                                                                                 |
+    |                 | |image160|                                                                                                                                                                                                                                 |
     |                 |                                                                                                                                                                                                                                            |
     |                 | #. Optionally, specify a p-value cutoff in the **p-value** field. Only those results with a p-value at or below the cutoff are returned. If you do not specify a p-value cutoff, all matches within the region of interest are returned.   |
     |                 |                                                                                                                                                                                                                                            |
@@ -220,7 +220,7 @@ The following tabs are displayed on the GWAS page:
 |                                 |                                                                                                                                                           |
 |                                 | A selected analysis is one whose check box next to its name is checked:                                                                                   |
 |                                 |                                                                                                                                                           |
-|                                 | |image211|                                                                                                                                                |
+|                                 | |image161|                                                                                                                                                |
 +---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Select All Visible Analyses     | Selects the check boxes for all analyses in all listed studies.                                                                                           |
 +---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -235,7 +235,7 @@ Analysis View
 Analysis View is the default view on the GWAS page. To display this
 view, click the **Analysis View** button:
 
-|image212|
+|image162|
 
 **Tasks**
 
@@ -273,7 +273,7 @@ You can perform the following tasks for a study:
 
     To do so, click the icon to the left of the study name:
 
-    |image213|
+    |image163|
 
     Information about the study is displayed, such as the description of the
     study, the institution that conducted the study, and data availability.
@@ -283,7 +283,7 @@ You can perform the following tasks for a study:
 
     To do so, click the **Analyses** button under the study name:
 
-    |image214|
+    |image164|
 
 -   Optionally, pull down the analyses for all listed studies by clicking
     the **Expand All Studies** tab at the top of the Faceted Browser page.
@@ -297,7 +297,7 @@ tissue type, cell type, and analysis platform.
 
 To do so, click the icon to the left of the analysis name:
 
-|image215|
+|image165|
 
 View, Filter, and Export Analysis Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -329,13 +329,13 @@ To view analysis data, and optionally filter and export the data:
 
     A list appears containing the study’s analyses:
 
-    |image217|
+    |image166|
 
 #.  Click the name of the analysis of interest.
 
     The rows of analysis data appear below the analysis name:
 
-    |image218|
+    |image167|
 
 #.  Optionally, filter the data results through one or both of the
     following methods and then click \ **OK** (do not press Enter or
@@ -382,7 +382,7 @@ To view analysis data in Table View:
 
 #.  Click the **Table View** button:
 
-    |image221|
+    |image168|
 
 #.  Optionally, filter the data results through one or both of the
     following methods and then click \ **OK** (do not press Enter or
@@ -406,7 +406,7 @@ To view analysis data in Table View:
 #.  Optionally, click **Export as CSV** to export the filtered data to a
     comma-separated text file.
 
-|image223|
+|image169|
 
 Manhattan Plot
 ~~~~~~~~~~~~~~
@@ -442,14 +442,14 @@ To display analysis data in a Manhattan Plot:
     -   Select the check box next to each analysis whose data will be
         included in the Manhattan Plot:
 
-        |image225|
+        |image161|
 
     At least one analysis must be selected.
 
     -   Click the **Select All Visible Analyses** tab to select all analyses
         for all listed studies.
 
-        |image226|
+        |image170|
 
 #.  Click the **Manhattan Plot** tab.
 
@@ -457,7 +457,7 @@ To display analysis data in a Manhattan Plot:
     version to use as the basis for the selected data, and optionally,
     specify a p-value cutoff:
 
-    |image227|
+    |image171|
 
     If you specify a p-value cutoff, the only data included in the Manhattan
     Plot will be from records containing the specified p-value or below.
@@ -470,30 +470,30 @@ To display analysis data in a Manhattan Plot:
     the left and click the **Include** button. The selected items are
     moved into the panel on the right:
 
-    |image228|
+    |image172|
 
 #.  Enter a list of genes or RSIDs (one or more):
 
-    |image229|
+    |image173|
 
 #.  Click the **Retrieve Data** button at the bottom to begin running the
     analysis/analyses.
 
-    |image230|
+    |image174|
 
 #.  Once the job status moves from Working to Success, the job is
     complete.
 
-    |image231|
+    |image175|
 
 #.  From the GWAVA Gene Model Selection window, select the completed
     analysis/analyses and click the **Colored Plot** button.
 
-    |image232|
+    |image176|
 
 #.  The Manhattan Plot is displayed in the Results tab of the GWAVA window:
 
-    |image233|
+    |image177|
 
 #.  Optionally, manipulate the image using the features on the bottom of
     the window or by directly highlighting the plot itself. For example,
@@ -501,94 +501,91 @@ To display analysis data in a Manhattan Plot:
     zoomed in and out on the chromosomal range, and horizontal lines can
     be added to the plot as needed.
 
-    |image234|
+    |image178|
 
 #.  To export, click the **Capture > Save plot to file** menu option.
 
-.. |image200| image:: media/image151.png
+.. |image151| image:: media/image151.png
    :width: 6.89744in
    :height: 2.80208in
-.. |image201| image:: media/image152.png
+.. |image152| image:: media/image152.png
    :width: 2.67708in
    :height: 1.46977in
-.. |image202| image:: media/image153.png
+.. |image153| image:: media/image153.png
    :width: 6.00000in
    :height: 1.46944in
-.. |image203| image:: media/image154.png
+.. |image154| image:: media/image154.png
    :width: 6.00000in
    :height: 2.89936in
-.. |image204| image:: media/image155.png
+.. |image155| image:: media/image155.png
    :width: 3.36416in
    :height: 0.58326in
-.. |image205| image:: media/image156.png
+.. |image156| image:: media/image156.png
    :width: 6.00000in
    :height: 1.25769in
-.. |image206| image:: media/image157.png
+.. |image157| image:: media/image157.png
    :width: 6.00000in
    :height: 1.25769in
-.. |image208| image:: media/image158.png
+.. |image158| image:: media/image158.png
    :width: 4.46528in
    :height: 2.37115in
-.. |image209| image:: media/image159.png
+.. |image159| image:: media/image159.png
    :width: 1.81343in
    :height: 1.33947in
-.. |image210| image:: media/image160.png
+.. |image160| image:: media/image160.png
    :width: 3.08000in
    :height: 0.71000in
-.. |image211| image:: media/image161.png
+.. |image161| image:: media/image161.png
    :width: 3.51000in
    :height: 0.74000in
-.. |image212| image:: media/image162.png
+.. |image162| image:: media/image162.png
    :width: 5.00000in
    :height: 1.67000in
-.. |image213| image:: media/image163.png
+.. |image163| image:: media/image163.png
    :width: 2.17000in
    :height: 0.35000in
-.. |image214| image:: media/image164.png
+.. |image164| image:: media/image164.png
    :width: 2.20000in
    :height: 0.63000in
-.. |image215| image:: media/image165.png
+.. |image165| image:: media/image165.png
    :width: 6.00000in
    :height: 1.43782in
-.. |image217| image:: media/image166.png
+.. |image166| image:: media/image166.png
    :width: 6.00000in
    :height: 1.99679in
-.. |image218| image:: media/image167.png
+.. |image167| image:: media/image167.png
    :width: 6.00000in
    :height: 4.00769in
-.. |image221| image:: media/image168.png
+.. |image168| image:: media/image168.png
    :width: 5.11000in
    :height: 1.53000in
-.. |image223| image:: media/image169.png
+.. |image169| image:: media/image169.png
    :width: 6.00000in
    :height: 3.48462in
-.. |image225| image:: media/image161.png
-   :width: 3.23000in
-   :height: 0.68000in
-.. |image226| image:: media/image170.png
+.. |image170| image:: media/image170.png
    :width: 5.32000in
    :height: 0.29000in
-.. |image227| image:: media/image171.png
+.. |image171| image:: media/image171.png
    :width: 3.54122in
    :height: 1.74978in
-.. |image228| image:: media/image172.png
+.. |image172| image:: media/image172.png
    :width: 6.00000in
    :height: 3.88403in
-.. |image229| image:: media/image173.png
+.. |image173| image:: media/image173.png
    :width: 6.00000in
    :height: 0.83750in
-.. |image230| image:: media/image174.png
+.. |image174| image:: media/image174.png
    :width: 6.00000in
    :height: 0.72083in
-.. |image231| image:: media/image175.png
+.. |image175| image:: media/image175.png
    :width: 6.02292in
    :height: 0.52292in
-.. |image232| image:: media/image176.png
+.. |image176| image:: media/image176.png
    :width: 3.39514in
    :height: 3.86042in
-.. |image233| image:: media/image177.png
+.. |image177| image:: media/image177.png
    :width: 5.66279in
    :height: 3.68737in
-.. |image234| image:: media/image178.png
+.. |image178| image:: media/image178.png
    :width: 5.98837in
    :height: 0.89561in
