@@ -445,6 +445,6 @@ epub_exclude_files = ['search.html']
 # including links in multiple documents
 #
 rst_prolog = """
-.. |image89| image:: media/image89.png
+.. |icon_hdd| image:: media/icon_hdd.png
    :width: 0.13540in
 """
