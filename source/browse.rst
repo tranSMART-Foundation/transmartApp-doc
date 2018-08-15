@@ -57,7 +57,7 @@ analyses of the cohort data.
 
 Features of the Browse page are shown below:
 
-|image7|
+|browse_page|
 
 .. _defining-search-filters-label:
 
@@ -82,7 +82,7 @@ Keyword Search
 
 The following figure shows the controls for defining a keyword search:
 
-|image8|
+|browse_search_disease|
 
 There are two types of keyword searches:
 
@@ -111,7 +111,7 @@ those characters. The search text is not case sensitive.
 The following figure shows a list of the keywords displayed when the
 characters **il7** are typed and the category **Gene** is selected:
 
-|image9|
+|browse_search_gene_list|
 
 Up to 15 keywords can be displayed at one time. If you don’t see the one
 you want, type more characters into the field.
@@ -120,7 +120,7 @@ Note that the search looks for matches based on the characters at the
 beginning of a keyword (in bold) or, as shown below, at the beginning of
 a keyword synonym (in parentheses).
 
-|image10|
+|browse_search_gene_synonym|
 
 Click the keyword you want, but do not press Enter or Return. When you click the keyword, the following actions occur:
 
@@ -129,7 +129,7 @@ Click the keyword you want, but do not press Enter or Return. When you click the
 
 -  The search filter appears in the Active Filters area:
 
-|image11|
+|browse_filters_active|
 
 You can add more filters by repeating the steps above, by selecting
 filters from the Filter Browser, or by a combination of these actions.
@@ -151,7 +151,7 @@ For example, after you type the following Free Text keyword and press
 Enter, tranSMART searches for data sources containing *primary breast tumor* 
 but not those containing just *breast tumor*:
 
-|image12|
+|browse_searchtext|
 
 Using the Filter Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -165,7 +165,7 @@ the `keyword search <#keyword-search>`__ field, into the
 
 To work with the Filter Browser:
 
-|image13|
+|browse_filter|
 
 #.  Click the filter icon in the **Active Filters** box
 
@@ -195,11 +195,11 @@ the Browse page is modified to satisfy the entire search query.
 The following search query in Active Filters will return data sources
 involving melanoma and the human protein MAGA4 or MAGB2:
 
-|image14|
+|browse_filters_multi|
 
 Note the following controls in the Active Filters pane:
 
-|image15|
+|browse_filter_controls|
 
 .. _viewing-studies-in-the-program-explorer-tree-label:
 
@@ -217,7 +217,7 @@ The following illustration shows the hierarchy of objects in the Program
 Explorer tree. Note that each node in the tree is associated with an
 icon that represents the type of object at that node:
 
-|image16|
+|browse_object_tree|
 
 **Program** is the top-level component of the hierarchy whose purpose is
 to group related studies together. Most of the time a program is defined
@@ -228,7 +228,7 @@ were performed. It can be a clinical trial, a preclinical study, or a
 discovery experiment.
 
 .. note::
-	 Icons for studies that can be opened in Analyze view are designated by a yellow star ( |image17| ) on the icon.   
+	 Icons for studies that can be opened in Analyze view are designated by a yellow star ( |icon_studystar| ) on the icon.   
 
 **Assay** is an investigative procedure for qualitatively or
 quantitatively assessing the amount or functional activity of an entity.
@@ -265,7 +265,7 @@ To view a file in a folder:
 #.  To export files click the **Add to Export** button at the far right of a file to
     export, or click **Export all** to export all files in the folder:
 
-|image18|
+|browse_folder_export|
 
 The files are not exported immediately. Instead, they are added to the
 Export Cart.
@@ -277,7 +277,7 @@ Export Cart.
     files, click the **Export Cart** button at the top of the Browse
     window:
 
-    |image19|
+    |browse_exportcart|
 
 #.  In the Export Files dialog box, click **Export Selected Files**.
 
@@ -298,15 +298,15 @@ Opening a Study in Analyze View
 
 Some studies that have been selected in the Program Explorer tree can be
 opened in Analyze view. The icon for these studies is displayed with a
-yellow star ( |image17| ), as shown below:
+yellow star ( |icon_studystar| ), as shown below:
 
-|image20|
+|browse_study_loaded|
 
 To open these studies in Analyze View, first click the study in the
 Program Explorer tree, then click the **Open in Analyze view** button as
 shown below:
 
-|image21|
+|browse_study_analyzeview|
 
 tranSMART displays the Comparison tab of the Analyze window and opens
 the study you were just viewing in the Browse window.
@@ -316,48 +316,48 @@ added to the Active Filters pane, and that the results of the search
 query are now restricted to that single study.
 
 
-.. |image7| image:: media/image7.png
+.. |browse_page| image:: media/browse_page.png
    :width: 6.50943in
    :height: 4.01415in
-.. |image8| image:: media/image8.png
+.. |browse_search_disease| image:: media/browse_search_disease.png
    :width: 6.00000in
    :height: 2.04306in
-.. |image9| image:: media/image9.png
+.. |browse_search_gene_list| image:: media/browse_search_gene_list.png
    :width: 4.58276in
    :height: 0.77074in
-.. |image10| image:: media/image10.png
+.. |browse_search_gene_synonym| image:: media/browse_search_gene_synonym.png
    :width: 4.58276in
    :height: 0.53118in
-.. |image11| image:: media/image11.png
+.. |browse_filters_active| image:: media/browse_filters_active.png
    :width: 3.20793in
    :height: 1.10403in
-.. |image12| image:: media/image12.png
+.. |browse_searchtext| image:: media/browse_searchtext.png
    :width: 3.64538in
    :height: 0.29163in
-.. |image13| image:: media/image13.png
+.. |browse_filter| image:: media/browse_filter.png
    :width: 2.69758in
    :height: 0.48952in
-.. |image14| image:: media/image14.png
+.. |browse_filters_multi| image:: media/browse_filters_multi.png
    :width: 3.23698in
    :height: 1.16667in
-.. |image15| image:: media/image15.png
+.. |browse_filter_controls| image:: media/browse_filter_controls.png
    :width: 6.00000in
    :height: 2.25764in
-.. |image16| image:: media/image16.png
+.. |browse_object_tree| image:: media/browse_object_tree.png
    :width: 1.66667in
    :height: 1.89583in
-.. |image17| image:: media/image17.png
+.. |icon_studystar| image:: media/icon_studystar.png
    :width: 0.15623in
    :height: 0.16665in
-.. |image18| image:: media/image18.png
+.. |browse_folder_export| image:: media/browse_folder_export.png
    :width: 6.00000in
    :height: 1.26528in
-.. |image19| image:: media/image19.png
+.. |browse_exportcart| image:: media/browse_exportcart.png
    :width: 4.23905in
    :height: 0.44786in
-.. |image20| image:: media/image20.png
+.. |browse_study_loaded| image:: media/browse_study_loaded.png
    :width: 2.62467in
    :height: 0.78115in
-.. |image21| image:: media/image21.png
+.. |browse_study_analyzeview| image:: media/browse_study_analyzeview.png
    :width: 6.00000in
    :height: 2.69653in

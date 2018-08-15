@@ -117,7 +117,7 @@ To create a gene signature:
 
     The first page of the gene signature wizard appears:
 
-    |image139|
+    |genesig_create|
 
     .. note::
         Required fields on gene signature wizard pages are marked with a red asterisk (\*).   
@@ -131,13 +131,13 @@ To create a gene signature:
 
 #.  The second page of the gene signature wizard appears:
 
-    |image140|
+    |genesig_create_metadata|
 
 #. Specify values in the required fields **Species** and **Technology**
    **Platform**, and also in any other relevant fields, then click
    **Next** to proceed to the final gene signature wizard page:
 
-   |image141|
+   |genesig_create_analysis|
 
 #.  The third page appears.
 
@@ -174,7 +174,7 @@ To create a gene signature:
 The new gene signature appears in the **Gene Signature List** at the top
 of the Gene Signature/List view:
 
-|image142|
+|genesig_list_added|
 
 Making a New Gene Signature Public
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -188,12 +188,12 @@ To make a gene signature public:
 
 #.  Click **Make Public** in the dropdown list:
 
-    |image143|
+    |genesig_make_public|
 
 #.  After you click **Make Public**, the value in the **Public** column for
     the gene signature changes from **No** to **Yes**:
 
-    |image144|
+    |genesig_list_public|
 
 .. note::
 	 tranSMART users assigned the role ROLE\_ADMIN have access to both public and private gene signatures.   
@@ -207,7 +207,7 @@ To edit or perform other actions on a gene signature in your gene signature list
 
 #.  The **Gene Signature List** appears, containing all the genes you have created:
 
-    |image145|
+    |genesig_list_view|
 
 #.  Click the **Select Action** dropdown for the gene signature you are
     acting on. The dropdown contains all the actions you can perform on
@@ -226,7 +226,7 @@ To edit or perform other actions on a gene signature in your gene signature list
     |                  |                                                                                                                                                                                                                                                       |
     |                  | The gene signature wizard displays all the information in the gene signature, including the reference to the text file containing the list of genes and fold change values. If you want to choose a different text file, click the following label:   |
     |                  |                                                                                                                                                                                                                                                       |
-    |                  | |image146|                                                                                                                                                                                                                                            |
+    |                  | |genesig_file_newupload|                                                                                                                                                                                                                              |
     |                  |                                                                                                                                                                                                                                                       |
     |                  | To save any changes you make during editing, you must click the **Save** button on the third page of the wizard.                                                                                                                                      |
     +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -240,7 +240,7 @@ To edit or perform other actions on a gene signature in your gene signature list
     |                  |                                                                                                                                                                                                                                                       |
     |                  | **Note:** To make a public gene signature private, edit the gene signature and set the **Public?** field to **No** on the first page of the gene signature wizard:                                                                                    |
     |                  |                                                                                                                                                                                                                                                       |
-    |                  | |image147|                                                                                                                                                                                                                                            |
+    |                  | |genesig_make_private|                                                                                                                                                                                                                                |
     +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Performing Actions on Other Users’ Signatures 
@@ -268,7 +268,7 @@ To edit or perform actions on a gene signature other than your own:
 #.  Click **Public Signatures** to open the list of public gene
     signatures:
 
-    |image148|
+    |genesig_public|
 
     .. note::
         tranSMART users assigned the role ROLE\_ADMIN will see **Other Signatures** instead of **Public Signatures**.   
@@ -286,47 +286,47 @@ genes and fold change values, for any gene signature you are authorized
 to access.
 
 To view a gene signature definition, click the **Detail** icon
-(|image149|) next to the gene signature name.
+(|icon_detail|) next to the gene signature name.
 
 The Gene Signature Detail dialog box appears, containing the gene
 signature definition:
 
-|image150|
+|genesig_detail|
 
 
-.. |image139| image:: media/image139.png
+.. |genesig_create| image:: media/genesig_create.png
    :width: 6.00000in
    :height: 1.93804in
-.. |image140| image:: media/image140.png
+.. |genesig_create_metadata| image:: media/genesig_create_metadata.png
    :width: 5.98958in
    :height: 5.07083in
-.. |image141| image:: media/image141.png
+.. |genesig_create_analysis| image:: media/genesig_create_analysis.png
    :width: 6.00000in
    :height: 2.96058in
-.. |image142| image:: media/image142.png
+.. |genesig_list_added| image:: media/genesig_list_added.png
    :width: 6.00000in
    :height: 0.82086in
-.. |image143| image:: media/image143.png
+.. |genesig_make_public| image:: media/genesig_make_public.png
    :width: 5.98958in
    :height: 1.34375in
-.. |image144| image:: media/image144.png
+.. |genesig_list_public| image:: media/genesig_list_public.png
    :width: 6.00000in
    :height: 0.80833in
-.. |image145| image:: media/image145.png
+.. |genesig_list_view| image:: media/genesig_list_view.png
    :width: 5.99937in
    :height: 0.81289in
-.. |image146| image:: media/image146.png
+.. |genesig_file_newupload| image:: media/genesig_file_newupload.png
    :width: 2.97500in
    :height: 0.22500in
-.. |image147| image:: media/image147.png
+.. |genesig_make_private| image:: media/genesig_make_private.png
    :width: 2.00000in
    :height: 0.23333in
-.. |image148| image:: media/image148.png
+.. |genesig_public| image:: media/genesig_public.png
    :width: 5.98958in
    :height: 1.33333in
-.. |image149| image:: media/image149.png
+.. |icon_detail| image:: media/icon_detail.png
    :width: 0.18403in
    :height: 0.13542in
-.. |image150| image:: media/image150.png
+.. |genesig_detail| image:: media/genesig_detail.png
    :width: 6.00000in
    :height: 2.64583in

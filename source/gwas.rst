@@ -21,7 +21,7 @@ or any combination.
 
 Features of the GWAS page are shown below:
 
-|image151|
+|gwas_page|
 
 Keyword searches and the Active Filters pane work as they do with the
 Browse tool. For information, see *Defining Search Filters* (page 4) and
@@ -32,7 +32,7 @@ GWAS Filter Browsers
 
 The Filter Browser pane contains the following GWAS filter categories:
 
-|image152|
+|gwas_filters|
 
 There are two types of GWAS filter browsers:
 
@@ -54,14 +54,14 @@ To select a filter from a resource browser:
 #.  Click the name of the filter browser category to open; for
     example, Study as shown below:
 
-    |image153|
+    |gwas_filter_select|
 
 #.  In the browser popup window, filter options are listed on the left.
     Select a filter by clicking the plus sign (**+**) to the right of the
     filter name. The selected filter is added to the right part of the
     browser.
 
-    |image154|
+    |gwas_filter_list|
 
     With filters that have long names, note that:
 
@@ -79,17 +79,17 @@ To select a filter from a resource browser:
         whose names include the characters, in a contiguous string, anywhere
         in the name (not case-sensitive):
 
-        |image155|
+        |gwas_filter_autocomplete|
 
     -   Select all the filters in the list by clicking **Add all**:
 
-        |image156|
+        |gwas_filters_addall|
 
     -   Remove a selected filter by clicking the minus sign (**–**) to the
         right of the selected filter name, or remove all selected filters by
         clicking **Remove all**:
 
-        |image157|
+        |gwas_filters_removeall|
 
 #.  When finished selecting filters from this browser, click **Select**
     at the bottom right of the browser. Your selections will be added to
@@ -120,7 +120,7 @@ To specify a region of interest:
 
     The Region of Interest browser appears:
 
-    |image158|
+    |gwas_filter_region|
 
 #.  Define the filter as described in the following table:
 
@@ -149,7 +149,7 @@ To specify a region of interest:
     |                 |                                                                                                                                                                                                                                            |
     |                 | For example, the following selects a region that spans 50 base pairs above and below the gene IL7, based on Human Genome version 19:                                                                                                       |
     |                 |                                                                                                                                                                                                                                            |
-    |                 | |image159|                                                                                                                                                                                                                                 |
+    |                 | |gwas_filter_gene|                                                                                                                                                                                                                         |
     |                 |                                                                                                                                                                                                                                            |
     |                 | 1. Optionally, specify a p-value cutoff in the **p-value** field. Only those results with a p-value at or below the cutoff are returned. If you do not specify a p-value cutoff, all matches within the region of interest are returned.   |
     |                 |                                                                                                                                                                                                                                            |
@@ -177,7 +177,7 @@ To specify a region of interest:
     |                 |                                                                                                                                                                                                                                            |
     |                 | For example, the following selects a region of interest that spans the base pair at position 57694854 and the 500 base pairs above it within chromosome 12, based on Human Genome version 19:                                              |
     |                 |                                                                                                                                                                                                                                            |
-    |                 | |image160|                                                                                                                                                                                                                                 |
+    |                 | |gwas_position|                                                                                                                                                                                                                            |
     |                 |                                                                                                                                                                                                                                            |
     |                 | #. Optionally, specify a p-value cutoff in the **p-value** field. Only those results with a p-value at or below the cutoff are returned. If you do not specify a p-value cutoff, all matches within the region of interest are returned.   |
     |                 |                                                                                                                                                                                                                                            |
@@ -220,7 +220,7 @@ The following tabs are displayed on the GWAS page:
 |                                 |                                                                                                                                                           |
 |                                 | A selected analysis is one whose check box next to its name is checked:                                                                                   |
 |                                 |                                                                                                                                                           |
-|                                 | |image161|                                                                                                                                                |
+|                                 | |gwas_analysis_select|                                                                                                                                    |
 +---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Select All Visible Analyses     | Selects the check boxes for all analyses in all listed studies.                                                                                           |
 +---------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -235,7 +235,7 @@ Analysis View
 Analysis View is the default view on the GWAS page. To display this
 view, click the **Analysis View** button:
 
-|image162|
+|gwas_analysis_view|
 
 **Tasks**
 
@@ -273,7 +273,7 @@ You can perform the following tasks for a study:
 
     To do so, click the icon to the left of the study name:
 
-    |image163|
+    |gwas_metadata|
 
     Information about the study is displayed, such as the description of the
     study, the institution that conducted the study, and data availability.
@@ -283,7 +283,7 @@ You can perform the following tasks for a study:
 
     To do so, click the **Analyses** button under the study name:
 
-    |image164|
+    |gwas_analysis_expand|
 
 -   Optionally, pull down the analyses for all listed studies by clicking
     the **Expand All Studies** tab at the top of the Faceted Browser page.
@@ -297,7 +297,7 @@ tissue type, cell type, and analysis platform.
 
 To do so, click the icon to the left of the analysis name:
 
-|image165|
+|gwas_analysis_metadata|
 
 View, Filter, and Export Analysis Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -329,13 +329,13 @@ To view analysis data, and optionally filter and export the data:
 
     A list appears containing the study’s analyses:
 
-    |image166|
+    |gwas_analysis_list|
 
 #.  Click the name of the analysis of interest.
 
     The rows of analysis data appear below the analysis name:
 
-    |image167|
+    |gwas_analysis_results|
 
 #.  Optionally, filter the data results through one or both of the
     following methods and then click \ **OK** (do not press Enter or
@@ -382,7 +382,7 @@ To view analysis data in Table View:
 
 #.  Click the **Table View** button:
 
-    |image168|
+    |gwas_analysis_table|
 
 #.  Optionally, filter the data results through one or both of the
     following methods and then click \ **OK** (do not press Enter or
@@ -406,7 +406,7 @@ To view analysis data in Table View:
 #.  Optionally, click **Export as CSV** to export the filtered data to a
     comma-separated text file.
 
-|image169|
+|gwas_analysis_export|
 
 Manhattan Plot
 ~~~~~~~~~~~~~~
@@ -442,14 +442,14 @@ To display analysis data in a Manhattan Plot:
     -   Select the check box next to each analysis whose data will be
         included in the Manhattan Plot:
 
-        |image161|
+        |gwas_analysis_select|
 
     At least one analysis must be selected.
 
     -   Click the **Select All Visible Analyses** tab to select all analyses
         for all listed studies.
 
-        |image170|
+        |gwas_analysis_selectall|
 
 #.  Click the **Manhattan Plot** tab.
 
@@ -457,7 +457,7 @@ To display analysis data in a Manhattan Plot:
     version to use as the basis for the selected data, and optionally,
     specify a p-value cutoff:
 
-    |image171|
+    |gwas_plot_manhat_options|
 
     If you specify a p-value cutoff, the only data included in the Manhattan
     Plot will be from records containing the specified p-value or below.
@@ -470,30 +470,30 @@ To display analysis data in a Manhattan Plot:
     the left and click the **Include** button. The selected items are
     moved into the panel on the right:
 
-    |image172|
+    |gwas_gwava|
 
 #.  Enter a list of genes or RSIDs (one or more):
 
-    |image173|
+    |gwas_gwava_gene|
 
 #.  Click the **Retrieve Data** button at the bottom to begin running the
     analysis/analyses.
 
-    |image174|
+    |gwas_gwava_retrieve|
 
 #.  Once the job status moves from Working to Success, the job is
     complete.
 
-    |image175|
+    |gwas_gwava_status|
 
 #.  From the GWAVA Gene Model Selection window, select the completed
     analysis/analyses and click the **Colored Plot** button.
 
-    |image176|
+    |gwas_gwava_doplot|
 
 #.  The Manhattan Plot is displayed in the Results tab of the GWAVA window:
 
-    |image177|
+    |gwas_gwava_plot|
 
 #.  Optionally, manipulate the image using the features on the bottom of
     the window or by directly highlighting the plot itself. For example,
@@ -501,91 +501,91 @@ To display analysis data in a Manhattan Plot:
     zoomed in and out on the chromosomal range, and horizontal lines can
     be added to the plot as needed.
 
-    |image178|
+    |gwas_gwava_plot_controls|
 
 #.  To export, click the **Capture > Save plot to file** menu option.
 
-.. |image151| image:: media/image151.png
+.. |gwas_page| image:: media/gwas_page.png
    :width: 6.89744in
    :height: 2.80208in
-.. |image152| image:: media/image152.png
+.. |gwas_filters| image:: media/gwas_filters.png
    :width: 2.67708in
    :height: 1.46977in
-.. |image153| image:: media/image153.png
+.. |gwas_filter_select| image:: media/gwas_filter_select.png
    :width: 6.00000in
    :height: 1.46944in
-.. |image154| image:: media/image154.png
+.. |gwas_filter_list| image:: media/gwas_filter_list.png
    :width: 6.00000in
    :height: 2.89936in
-.. |image155| image:: media/image155.png
+.. |gwas_filter_autocomplete| image:: media/gwas_filter_autocomplete.png
    :width: 3.36416in
    :height: 0.58326in
-.. |image156| image:: media/image156.png
+.. |gwas_filters_addall| image:: media/gwas_filters_addall.png
    :width: 6.00000in
    :height: 1.25769in
-.. |image157| image:: media/image157.png
+.. |gwas_filters_removeall| image:: media/gwas_filters_removeall.png
    :width: 6.00000in
    :height: 1.25769in
-.. |image158| image:: media/image158.png
+.. |gwas_filter_region| image:: media/gwas_filter_region.png
    :width: 4.46528in
    :height: 2.37115in
-.. |image159| image:: media/image159.png
+.. |gwas_filter_gene| image:: media/gwas_filter_gene.png
    :width: 1.81343in
    :height: 1.33947in
-.. |image160| image:: media/image160.png
+.. |gwas_position| image:: media/gwas_position.png
    :width: 3.08000in
    :height: 0.71000in
-.. |image161| image:: media/image161.png
+.. |gwas_analysis_select| image:: media/gwas_analysis_select.png
    :width: 3.51000in
    :height: 0.74000in
-.. |image162| image:: media/image162.png
+.. |gwas_analysis_view| image:: media/gwas_analysis_view.png
    :width: 5.00000in
    :height: 1.67000in
-.. |image163| image:: media/image163.png
+.. |gwas_metadata| image:: media/gwas_metadata.png
    :width: 2.17000in
    :height: 0.35000in
-.. |image164| image:: media/image164.png
+.. |gwas_analysis_expand| image:: media/gwas_analysis_expand.png
    :width: 2.20000in
    :height: 0.63000in
-.. |image165| image:: media/image165.png
+.. |gwas_analysis_metadata| image:: media/gwas_analysis_metadata.png
    :width: 6.00000in
    :height: 1.43782in
-.. |image166| image:: media/image166.png
+.. |gwas_analysis_list| image:: media/gwas_analysis_list.png
    :width: 6.00000in
    :height: 1.99679in
-.. |image167| image:: media/image167.png
+.. |gwas_analysis_results| image:: media/gwas_analysis_results.png
    :width: 6.00000in
    :height: 4.00769in
-.. |image168| image:: media/image168.png
+.. |gwas_analysis_table| image:: media/gwas_analysis_table.png
    :width: 5.11000in
    :height: 1.53000in
-.. |image169| image:: media/image169.png
+.. |gwas_analysis_export| image:: media/gwas_analysis_export.png
    :width: 6.00000in
    :height: 3.48462in
-.. |image170| image:: media/image170.png
+.. |gwas_analysis_selectall| image:: media/gwas_analysis_selectall.png
    :width: 5.32000in
    :height: 0.29000in
-.. |image171| image:: media/image171.png
+.. |gwas_plot_manhat_options| image:: media/gwas_plot_manhat_options.png
    :width: 3.54122in
    :height: 1.74978in
-.. |image172| image:: media/image172.png
+.. |gwas_gwava| image:: media/gwas_gwava.png
    :width: 6.00000in
    :height: 3.88403in
-.. |image173| image:: media/image173.png
+.. |gwas_gwava_gene| image:: media/gwas_gwava_gene.png
    :width: 6.00000in
    :height: 0.83750in
-.. |image174| image:: media/image174.png
+.. |gwas_gwava_retrieve| image:: media/gwas_gwava_retrieve.png
    :width: 6.00000in
    :height: 0.72083in
-.. |image175| image:: media/image175.png
+.. |gwas_gwava_status| image:: media/gwas_gwava_status.png
    :width: 6.02292in
    :height: 0.52292in
-.. |image176| image:: media/image176.png
+.. |gwas_gwava_doplot| image:: media/gwas_gwava_doplot.png
    :width: 3.39514in
    :height: 3.86042in
-.. |image177| image:: media/image177.png
+.. |gwas_gwava_plot| image:: media/gwas_gwava_plot.png
    :width: 5.66279in
    :height: 3.68737in
-.. |image178| image:: media/image178.png
+.. |gwas_gwava_plot_controls| image:: media/gwas_gwava_plot_controls.png
    :width: 5.98837in
    :height: 0.89561in

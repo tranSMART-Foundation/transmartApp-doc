@@ -24,13 +24,13 @@ following sections:
 
     For example:
 
-    |image63|
+    |summary_queries|
 
     A table showing the number of subjects in each subset that match the subset criteria.
 
     For example:
 
-    |image64|
+    |summary_totals|
 
     In this example, 58 subjects matched the criteria for Subset 1 and
     63 matched the criteria for Subset 2. No (0) subjects matched the
@@ -41,7 +41,7 @@ following sections:
 
     This example shows the age portion of the demographics data only:
 
-    |image65|
+    |summary_age|
 
     Analyses of the concepts you added to the subsets from the navigation
     tree. The data displayed reflects the data used to generate the
@@ -50,15 +50,15 @@ following sections:
 The next examples show analysis of concepts for a non-linked event, a
 linked event, and NGS data.
 
-    |image66|
+    |summary_nonlinked|
 
     **Example 1: Non-linked event.**: this example shows the analysis of the chemotherapy concept.
 
-    |image67|
+    |summary_linked|
 
     **Example 2: Linked event.**: this example shows the analysis of concepts for adverse events.
 
-    |image68|
+    |summary_ngs|
 
     **Example 3: NGS data.**: this example shows the analysis of concepts for description of planned arm.
 
@@ -68,7 +68,7 @@ Significance Tests
 The analyses include the results of significance testing that Analyze
 performs:
 
-|image69|
+|summary_ttest|
 
 Significance testing is designed to indicate whether the reliability of
 the statistics is 95% or greater, based on p-value.
@@ -101,7 +101,7 @@ circumstances:
     show statistics by gender, tables similar to the following would
     result:
 
-    |image70|
+    |summary_chi2_disjoint|
 
     In this case, the chi-squared function doesn’t return meaningful
     results.
@@ -116,18 +116,18 @@ follows:
 
 #.  Select a cohort from the navigation tree and drag it into a subset; for example:
 
-    |image71|
+    |summary_single_subset|
 
 #.  Click the **Summary Statistics** tab.
 
 #.  Drag and drop a folder from the navigation tree into the empty page;
     for example:
 
-    |image72|
+    |summary_single_drag|
 
 #.  tranSMART calculates the results and displays the data for the given subset and concept:
 
-    |image73|
+    |summary_single_results|
 
 .. note::
     The Summary Statistics allows you to use high dimensional data as well, see :ref:`hidome-label`.
@@ -173,7 +173,7 @@ split.
 The comparison is placed at the top of the Summary Statistics view,
 above the demographic definitions plus any other earlier comparisons:
 
-|image74|
+|summary_single_diagnosis|
 
 .. note::
     To keep the size of the preceding figure within production limits, 
@@ -190,111 +190,48 @@ You can print the contents of Summary Statistics view as shown below.
 
 #.  In Summary Statistics view, click the **Print** button:
 
-    |image75|
+    |summary_print|
 
     The entire contents of Summary Statistics view appear in a separate browser window.
 
 #.  Click **Print this page**.
 
-.. _viewing-analysis-data-in-grid-view-label:
-
-Viewing Data in Grid View
--------------------------
-
-If you are displaying data in the various tables and charts of
-Summary Statistics view, and want to view the data in a single table,
-use the **Grid View** option.
-
-Access Grid View as follows:
-
-#.  Click the **Analyze** tool and define your cohorts as described earlier in this chapter.
-
-#.  Click **Summary Statistics**.
-
-#.  Click **Grid View**.
-
-    |image76|
-
-#.  Optionally, you can drag and drop additional points of comparison
-    into the grid, and new columns will appear for that data.
-
-#.  You can drag a node from any level of the tree into the grid.
-
-Sample of Grid View for a public study:
-
-|image77|
-
-.. note::
-    The ID assigned in the **Subject** column is the internal tranSMART ID that is assigned at the time of data loading. 
-    The ID in the **Patient** field contains the original subject ID that was provided in the data.   
-
-    And, also the Grid View allows you to use high dimensional data, see :ref:`hidome-label`.
-
-Grid View Display Options
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
--   **Sort the grid by a specific column.** Click the down-arrow icon
-    (|image78|) next to the column heading you want to sort by, then
-    select **Sort Ascending** or **Sort Descending**.
-
--   **Hide or redisplay columns.** Click the down-arrow icon next to any
-    column heading, click **Columns** as shown below, then select or
-    deselect columns to hide or redisplay:
-
-    |image79|
-
-If a column name does not appear in the menu, you have not included the
-associated concept in the analysis. For example, Diagnosis has not been
-included in the analysis above.
-
-.. |image63| image:: media/image63.png
+.. |summary_queries| image:: media/summary_queries.png
    :width: 6.00000in
    :height: 0.80486in
-.. |image64| image:: media/image64.png
+.. |summary_totals| image:: media/summary_totals.png
    :width: 1.68729in
    :height: 0.73949in
-.. |image65| image:: media/image65.png
+.. |summary_age| image:: media/summary_age.png
    :width: 6.00000in
    :height: 2.29444in
-.. |image66| image:: media/image66.png
+.. |summary_nonlinked| image:: media/summary_nonlinked.png
    :width: 6.00000in
    :height: 2.35347in
-.. |image67| image:: media/image67.png
+.. |summary_linked| image:: media/summary_linked.png
    :width: 6.00000in
    :height: 5.18819in
-.. |image68| image:: media/image68.png
+.. |summary_ngs| image:: media/summary_ngs.png
    :width: 5.87106in
    :height: 4.45833in
-.. |image69| image:: media/image69.png
+.. |summary_ttest| image:: media/summary_ttest.png
    :width: 3.01004in
    :height: 0.77074in
-.. |image70| image:: media/image70.png
+.. |summary_chi2_disjoint| image:: media/summary_chi2_disjoint.png
    :width: 6.00000in
    :height: 1.38264in
-.. |image71| image:: media/image71.png
+.. |summary_single_subset| image:: media/summary_single_subset.png
    :width: 6.00000in
    :height: 1.42500in
-.. |image72| image:: media/image72.png
+.. |summary_single_drag| image:: media/summary_single_drag.png
    :width: 6.00000in
    :height: 2.34792in
-.. |image73| image:: media/image73.png
+.. |summary_single_results| image:: media/summary_single_results.png
    :width: 6.00000in
    :height: 4.50764in
-.. |image74| image:: media/image74.png
+.. |summary_single_diagnosis| image:: media/summary_single_diagnosis.png
    :width: 6.37851in
    :height: 2.04167in
-.. |image75| image:: media/image75.png
+.. |summary_print| image:: media/summary_print.png
    :width: 6.00000in
    :height: 1.42917in
-.. |image76| image:: media/image76.png
-   :width: 3.98908in
-   :height: 0.57285in
-.. |image77| image:: media/image77.png
-   :width: 6.00000in
-   :height: 1.93542in
-.. |image78| image:: media/image78.png
-   :width: 0.10417in
-   :height: 0.17361in
-.. |image79| image:: media/image79.png
-   :width: 3.17669in
-   :height: 3.46832in

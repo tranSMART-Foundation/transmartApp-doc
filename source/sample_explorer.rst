@@ -28,7 +28,7 @@ of the pane.
 
 Click a filter to initiate a sample search.
 
-|image130|
+|sample_filters|
 
 Note that the number of samples that are associated with a filter appear
 in parentheses after the filter name.
@@ -48,7 +48,7 @@ After you select a `Select a Primary Search Filter`_:
 The following figure illustrates the sections of the Sample Explorer
 after a primary search filter has been selected:
 
-|image131|
+|sample_view|
 
 Tasks you can perform in the Sample Explorer window include:
 
@@ -83,7 +83,7 @@ logical operators AND and OR, as follows:
 
    (RBM OR Gene Expression) AND (Colorectal Cancer OR Gastric Cancer)
 
-   |image132|
+   |sample_filter_select|
 
 Manage the Search Result List
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,7 +97,7 @@ To sort the result list by the contents of a column:
 
 #.  Click the right side of the column heading to pull down the menu:
 
-    |image133|
+    |sample_column_sort|
 
 #.  Click **Sort Ascending** or **Sort Descending**.
 
@@ -111,7 +111,7 @@ To add and remove columns:
 #.  Hover the mouse pointer over **Columns** to display the submenu of
     column headings:
 
-    |image134|
+    |sample_columns_select|
 
 #.  Check or clear the check boxes to add or remove columns from the
     search result.
@@ -128,45 +128,45 @@ To group search results by the contents of a particular column:
 
 #.  Click **Group by This Field**.
 
-    |image135|
+    |sample_groupby|
 
 #.  To view the samples in all groups click **Expand All** in the upper-right corner of the search result.
 
-    |image136|
+    |sample_expandall|
 
 #.  To view the samples in a particular group click the plus-sign icon next to the group name:
 
-    |image137|
+    |sample_group_view|
 
 #.  To ungroup the search result pull down the menu and click the Show in Groups menu item:
 
-    |image138|
+    |sample_ungroup|
 
 
-.. |image130| image:: media/image130.png
+.. |sample_filters| image:: media/sample_filters.png
    :width: 6.00000in
    :height: 2.77986in
-.. |image131| image:: media/image131.png
+.. |sample_view| image:: media/sample_view.png
    :width: 6.50208in
    :height: 3.84375in
-.. |image132| image:: media/image132.png
+.. |sample_filter_select| image:: media/sample_filter_select.png
    :width: 2.47917in
    :height: 2.00000in
-.. |image133| image:: media/image133.png
+.. |sample_column_sort| image:: media/sample_column_sort.png
    :width: 2.00000in
    :height: 1.39000in
-.. |image134| image:: media/image134.png
+.. |sample_columns_select| image:: media/sample_columns_select.png
    :width: 3.42917in
    :height: 2.79848in
-.. |image135| image:: media/image135.png
+.. |sample_groupby| image:: media/sample_groupby.png
    :width: 2.28000in
    :height: 1.79000in
-.. |image136| image:: media/image136.png
+.. |sample_expandall| image:: media/sample_expandall.png
    :width: 4.78000in
    :height: 0.96000in
-.. |image137| image:: media/image137.png
+.. |sample_group_view| image:: media/sample_group_view.png
    :width: 4.78000in
    :height: 0.96000in
-.. |image138| image:: media/image138.png
+.. |sample_ungroup| image:: media/sample_ungroup.png
    :width: 2.26956in
    :height: 2.60953in

@@ -13,7 +13,7 @@ tranSMART Browse.
 
 Analysis data is uploaded from a tab-separated text file. To ensure that
 this file is in the proper format for uploading, use one of the provided
-templates. For information, see *File Templates* on page 133.
+templates. For information, see *File Templates*.
 
 Uploading Analysis Data
 -----------------------
@@ -155,7 +155,7 @@ To do so:
 
 #.  Click **Download Template** to the right of the File field:
 
-    |image179|
+    |gwas_template|
 
     You will be prompted to open or save the template for the data type you
     specified in step 3.
@@ -168,6 +168,6 @@ To do so:
 #.  Click the **Cancel** button on the upload data form.
 
 
-.. |image179| image:: media/image179.png
+.. |gwas_template| image:: media/gwas_template.png
    :width: 6.00000in
    :height: 0.86474in

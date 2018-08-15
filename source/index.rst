@@ -6,7 +6,7 @@
 The transmartApp documentation
 ==============================
 
-|image2|
+|logo_transmart|
  
 This version 16.3 of the tranSMART documentation was updated by the I2b2 tranSMART Foundation
 extending a version created for version 16.2 by The Hyve
@@ -31,7 +31,7 @@ The following was originally stated and still applies:
     This document is licensed under the Creative Commons Attribution 3.0
     Unported License.
 
-    |image3|
+    |logo_ccommons|
 
     **You are free:**
 
@@ -59,13 +59,14 @@ The following was originally stated and still applies:
 
 
 .. toctree::
-   :maxdepth: 0
-   :hidden: 
+   :maxdepth: 2
 
    getting_started
    browse
    analyze
    summary_statistics
+   grid_view
+   hidome
    advanced_workflow
    advanced_analysis_R_export
    smartr
@@ -73,17 +74,15 @@ The following was originally stated and still applies:
    sample_explorer
    gene_lists
    gwas
-   hidome
    data_upload
    admin
-   appendices
+   appendix_a
+   appendix_b
 
-.. |image1| image:: media/image1.png
-   :width: 9.10417in
-   :height: 11.73750in
-.. |image2| image:: media/image2.jpg
+
+.. |logo_transmart| image:: media/logo_transmart.jpg
    :width: 2.91250in
    :height: 1.04167in
-.. |image3| image:: media/image3.png
+.. |logo_ccommons| image:: media/logo_ccommons.png
    :width: 1.50000in
    :height: 0.52000in

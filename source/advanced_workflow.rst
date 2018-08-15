@@ -134,7 +134,7 @@ To perform an aCGH Survival Analysis:
 #.  You can also opt to click **Download Result**, in which case both the
     table and all survival plots are obtained.
 
-|image80|
+|adv_acghsurvival_plot|
 
 **Reference**
     Wiel et al. (2005) "CGHMultiArray: exact p-values for multi-array
@@ -182,7 +182,7 @@ To perform a box plot with ANOVA analysis:
 
     Your analysis appears below:
 
-    |image81|
+    |adv_boxplot_plot|
 
 
 Correlation Analysis
@@ -210,7 +210,7 @@ To perform a correlation analysis:
 
 #.  Select the analysis you want to perform from the **Correlation Type** dropdown menu:
 
-    |image82|
+    |adv_correl_type|
 
     .. note::
         The analyses listed under **Correlation Type** refer to different regression algorithms.   
@@ -219,7 +219,7 @@ To perform a correlation analysis:
 
     Your analysis appears below:
 
-    |image83|
+    |adv_correl_plot|
 
 
 Forest Plot 
@@ -290,11 +290,11 @@ Your analysis appears below:
 
 **Example 1: Odds Ratio analysis run without stratification:**
 
-|image84|
+|adv_forest_plot|
 
 **Example 2: Odds ratio analysis with stratification:**
 
-|image85|
+|adv_forest_strat|
 
 Frequency Plot for aCGH
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -336,7 +336,7 @@ losses are in red.
 
 Example of a plot of one group:
 
-|image86|
+|adv_acghfreq_plot|
 
 **Reference**
     Mark A. van de Wiel, Kyung In Kim, Sjoerd J. Vosse, Wessel N. van
@@ -457,7 +457,7 @@ To perform a Group test for aCGH analysis:
         are shown. In particular, "Mirror frequency plots" are shown; for
         example:
 
-        |image87|
+        |adv_acghgroup_plot|
 
 **Reference**
     Wiel et al. (2005) "CGHMultiArray: exact p-values for multi-array
@@ -526,7 +526,7 @@ To perform a Group Test for RNASeq analysis:
         samples, and an MA plot (fold change versus abundance) visualizing
         the RNASeq data.
 
-    |image88|
+    |adv_rnaseqgroup_plot|
 
 **Reference**
     Mark D. Robinson, Davis J. McCarthy and Gordon K. Smyth (2009) "edgeR: a
@@ -606,7 +606,7 @@ To perform a standard heatmap analysis:
 
     The Variable Selection section appears.
 
-#.  Drag a high-dimensional data node (|image89|), or several
+#.  Drag a high-dimensional data node (|icon_hdd|), or several
     high-dimensional nodes in the case of serial data, into the
     Variable Selection box.
 
@@ -624,13 +624,13 @@ To perform a standard heatmap analysis:
 
 #.  Optionally, select either or both of the following:
 
-    |image90|
+    |adv_heatmap_options|
 
 #.  Click **Run**.
 
 #.  Your analysis appears below:
 
-   |image91|
+   |adv_heatmap_plot|
 
 .. note::
     With serial data, the heatmap will display the various conditions ordered by 
@@ -653,7 +653,7 @@ To perform a hierarchical clustering heatmap analysis:
 
     The Variable Selection section appears.
 
-#.  Drag a high-dimensional data node (|image89|) into the Variable Selection box.
+#.  Drag a high-dimensional data node (|icon_hdd|) into the Variable Selection box.
 
 #.  Click the **High Dimensional Data** button.
 
@@ -670,13 +670,13 @@ To perform a hierarchical clustering heatmap analysis:
 
 #.  Optionally, select one or more of the following:
 
-    |image92|
+    |adv_hclust_options|
 
 #.  Click **Run**.
 
 #.  Your analysis appears below:
 
-    |image93|
+    |adv_hclust_plot|
 
 .. note::
 	 To read more about Hierarchical Clustering, visit: *http://www.ics.uci.edu/~eppstein/280/cluster.html*   
@@ -701,7 +701,7 @@ To perform a k-means clustering heatmap analysis:
 
     The Variable Selection section appears.
 
-#.  Drag a high-dimensional data node (|image89|) into the Variable Selection box.
+#.  Drag a high-dimensional data node (|icon_hdd|) into the Variable Selection box.
 
 #.  Click the **High Dimensional Data** button.
 
@@ -726,7 +726,7 @@ To perform a k-means clustering heatmap analysis:
 #.  Your analysis appears below. Clusters are represented by the
     colored bars at the top of the heatmap:
 
-    |image94|
+    |adv_kclust_plot|
 
 .. note::
 	 To read more about K-Means Clustering, visit: *http://www.ics.uci.edu/~eppstein/280/cluster.html*   
@@ -760,7 +760,7 @@ To perform a marker selection heatmap analysis:
 
     The Variable Selection section appears.
 
-#.  Drag a high-dimensional data node (|image89|) into the Variable
+#.  Drag a high-dimensional data node (|icon_hdd|) into the Variable
     Selection box.
 
 #.  Click the **High Dimensional Data** button.
@@ -779,14 +779,14 @@ To perform a marker selection heatmap analysis:
 
 #.  Optionally, select either or both of the following:
 
-    |image90|
+    |adv_heatmap_options|
 
 #.  Click **Run**.
 
 #.  Your analysis appears below. The subsets are represented by the
     colored bars at the top of the heatmap:
 
-    |image95|
+    |adv_marker_plot|
 
 A table of the top markers appears below the heatmap. You can sort
 the table by clicking any of the column headings. Optionally, you can
@@ -798,7 +798,7 @@ For more information about MetaCore Enrichment Analysis see :ref:`metacore-enric
 The following table represents a portion of the data from the Marker
 Selection heatmap illustrated above:
 
-|image96|
+|adv_marker_table|
 
 .. note::
     For more information on the analyses used in Marker Selection, 
@@ -834,7 +834,7 @@ To perform an IC50 dose response curve analysis:
 
     Your analysis appears below:
 
-    |image97|
+    |adv_ic50_plot|
 
 
 Line Graph
@@ -898,7 +898,7 @@ To perform a line graph analysis:
 
 #.  Optionally, select one or both of the following:
 
-    |image98|
+    |adv_linegraph_options|
 
 #.  In **Graph Type**, select the type of line graph you want to display.
 
@@ -906,7 +906,7 @@ To perform a line graph analysis:
 
     Your analysis appears below:
 
-    |image99|
+    |adv_linegraph_plot|
 
 
 Logistic Regression
@@ -944,7 +944,7 @@ To perform a logistic regression analysis:
 Your analysis appears below. Note that raw data (Event/Non-Event data)
 is plotted along the top and bottom of the analysis.
 
-|image100|
+|adv_logreg_plot|
 
 PCA
 ~~~
@@ -973,7 +973,7 @@ To perform a PCA analysis:
 
     The Variable Selection section appears.
 
-#.  Drag a high-dimensional data node (|image89|) into the Variable
+#.  Drag a high-dimensional data node (|icon_hdd|) into the Variable
     Selection box.
 
 #.  Click the **High Dimensional Data** button.
@@ -988,11 +988,11 @@ To perform a PCA analysis:
 
 #.  Optionally, select either or both of the following:
 
-    |image101|
+    |adv_pca_options|
 
 #.  Click **Run**. Your analysis appears below:
 
-    |image102|
+    |adv_pca_plot|
 
 .. note::
 	 For more information regarding PCAs, see: http://psb.stanford.edu/psb-online/proceedings/psb00/raychaudhuri.pdf.   
@@ -1034,7 +1034,7 @@ To perform a scatter plot with linear regression analysis:
 
 #. Your analysis appears below:
 
-    |image103|
+    |adv_scatter_plot|
 
 Log\ :sub:`10` Transformation
 """""""""""""""""""""""""""""
@@ -1055,11 +1055,11 @@ To use the log\ :sub:`10` transformation:
 #.  Check the box next to **Perform log10 transformation on
     independent variable** (below the **Independent Variable** box):
 
-    |image104|
+    |adv_scatter_log10|
 
 #.  Click **Run.** Your analysis appears below:
 
-    |image105|
+    |adv_scatter_log10_plot|
 
     .. note::
         The difference between the x-axis on the scatter plot shown
@@ -1112,7 +1112,7 @@ To perform a survival analysis:
 
     Your analysis appears below:
 
-    |image106|
+    |adv_survival_plot|
 
 Table with Fisher Test
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -1163,7 +1163,7 @@ To perform a table with fisher test analysis:
 
 #.  Your analysis appears below:
 
-    |image107|
+    |adv_tabfish_plot|
 
 Table with Fisher Test with Linked Events
 """""""""""""""""""""""""""""""""""""""""
@@ -1179,7 +1179,7 @@ Using a linked event study, define your variables as described above the
 Note that there are now two sets of results for each type of data
 presented.
 
-|image108|
+|adv_tabfish_linked_plot|
 
 Waterfall Plot
 ~~~~~~~~~~~~~~
@@ -1222,7 +1222,7 @@ To generate a waterfall plot:
 
 #.  Your analysis appears below:
 
-    |image109|
+    |adv_waterfall_plot|
 
 .. _high-dimensional-data-label:
 
@@ -1236,7 +1236,7 @@ as platforms, samples, and genes or pathways).
 
 .. note::
     The High Dimensional Data feature must be used when you perform an analysis using high
-    dimensional data (such as SNP, gene expression, RBM, etc.) symbolized by the DNA icon ( |image110| ). 
+    dimensional data (such as SNP, gene expression, RBM, etc.) symbolized by the DNA icon ( |icon_hdd| ). 
     Additionally, the High Dimensional Data feature cannot be used without high dimensional data.   
 
 When you click the **High Dimensional Data** button while setting up an
@@ -1468,11 +1468,11 @@ To use the data binning feature with a box plot analysis:
     
         -   For continuous data:   
         
-            |image111| 
+            |adv_plot_bin_contin| 
     
         -   For categorical data:  
 
-            |image112|
+            |adv_plot_bin_categ|
 
 Data Binning Using Forest Plot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1504,7 +1504,7 @@ To use the data binning feature with a forest plot analysis:
         
         Example for binning an independent variable:  
         
-            |image113|    
+            |adv_forest_bin_indep|    
 
     **Variable Type**    
         Select whether the variable you have defined above is continuous or categorical from the dropdown menu. 
@@ -1551,11 +1551,11 @@ To use the data binning feature with a forest plot analysis:
         
         -   For continuous data:  
     
-            |image114|    
+            |adv_forest_bin_contin|    
     
         -   For categorical data: 
     
-            |image115|    
+            |adv_forest_bin_categ|    
 
 
 Data Binning Using Survival Analysis
@@ -1617,11 +1617,11 @@ To use the data binning feature with a survival analysis:
 
         -   For continuous data:
 
-            |image111|
+            |adv_plot_bin_contin|
 
         -   For categorical data:
 
-            |image112|
+            |adv_plot_bin_categ|
 
 
 Data Binning Using Table with Fisher Test
@@ -1651,10 +1651,10 @@ To use the data binning feature with a Fisher Test analysis:
 
         Example for binning an independent variable:
         
-        |image116|                                                                                                                                                       
+        |adv_tabfish_bin_indep|
 
     **Variable Type** 
-        Select whether the variable you have defined above is continuous or categorical.                                                       
+        Select whether the variable you have defined above is continuous or categorical.
         
         A continuous variable can be treated as a categorical variable when you use the binning feature.
 
@@ -1688,11 +1688,11 @@ To use the data binning feature with a Fisher Test analysis:
         
         -   For continuous data:                                                                                                                                         
                                                                                                                                                                     
-            |image117|                                                                                                                                                       
+            |adv_tabfish_bin_contin|                                                                                                                                                       
                                                                                                                                                                     
         -   For categorical data:                                                                                                                                        
                         
-            |image118|                                                                                                                                                       
+            |adv_tabfish_bin_categ|                                                                                                                                                       
 
 
 Running Across-Trial Analyses
@@ -1719,7 +1719,7 @@ The columns of information in the Analysis Jobs tab are described below:
     **Name**
         The name of the analysis run. The format of the name is as follows:
         
-        |image119|
+        |adv_jobname|
 
     **Status**
         The status of the analysis. Statuses are explained below:                                                                                                     
@@ -1743,7 +1743,7 @@ The columns of information in the Analysis Jobs tab are described below:
 .. note::
 	 Click the **Refresh** button to view any changes that have been made since the Analysis Jobs tab initially populated:   
 
-|image120|
+|button_refresh|
 
 Viewing a Logged Job 
 ~~~~~~~~~~~~~~~~~~~~~
@@ -1758,11 +1758,11 @@ To run a logged advanced workflow:
 
 #.  Click the hyperlink of the analysis you are interested in viewing:
 
-    |image121|
+    |anajobs_list|
 
     If you click on a job that has not been completed, the following dialog box appears:
 
-    |image122|
+    |anajobs_processing|
 
 
 .. _z-score-calculation-label:
@@ -1795,129 +1795,126 @@ analysis the median value for the probe will be different between these two grou
 
 
 
-.. |image80| image:: media/image80.png
+.. |adv_acghsurvival_plot| image:: media/adv_acghsurvival_plot.png
    :width: 4.41667in
    :height: 3.97179in
-.. |image81| image:: media/image81.png
+.. |adv_boxplot_plot| image:: media/adv_boxplot_plot.png
    :width: 4.23803in
    :height: 8.37219in
-.. |image82| image:: media/image82.png
+.. |adv_correl_type| image:: media/adv_correl_type.png
    :width: 2.38512in
    :height: 0.80198in
-.. |image83| image:: media/image83.png
+.. |adv_correl_plot| image:: media/adv_correl_plot.png
    :width: 7.26042in
    :height: 5.50814in
-.. |image84| image:: media/image84.png
+.. |adv_forest_plot| image:: media/adv_forest_plot.png
    :width: 6.00000in
    :height: 3.89028in
-.. |image85| image:: media/image85.png
+.. |adv_forest_strat| image:: media/adv_forest_strat.png
    :width: 4.81000in
    :height: 8.54000in
-.. |image86| image:: media/image86.png
+.. |adv_acghfreq_plot| image:: media/adv_acghfreq_plot.png
    :width: 6.30000in
    :height: 2.33264in
-.. |image87| image:: media/image87.png
+.. |adv_acghgroup_plot| image:: media/adv_acghgroup_plot.png
    :width: 6.30000in
    :height: 2.61042in
-.. |image88| image:: media/image88.jpeg
+.. |adv_rnaseqgroup_plot| image:: media/adv_rnaseqgroup_plot.jpg
    :width: 6.48958in
    :height: 4.71875in
-.. |image90| image:: media/image90.png
+.. |adv_heatmap_options| image:: media/adv_heatmap_options.png
    :width: 3.43707in
    :height: 0.43745in
-.. |image91| image:: media/image91.png
+.. |adv_heatmap_plot| image:: media/adv_heatmap_plot.png
    :width: 5.78958in
    :height: 3.87313in
-.. |image92| image:: media/image92.png
+.. |adv_hclust_options| image:: media/adv_hclust_options.png
    :width: 2.13515in
    :height: 0.57285in
-.. |image93| image:: media/image93.png
+.. |adv_hclust_plot| image:: media/adv_hclust_plot.png
    :width: 6.00000in
    :height: 4.15672in
-.. |image94| image:: media/image94.png
+.. |adv_kclust_plot| image:: media/adv_kclust_plot.png
    :width: 5.52985in
    :height: 4.11181in
-.. |image95| image:: media/image95.png
+.. |adv_marker_plot| image:: media/adv_marker_plot.png
    :width: 6.00000in
    :height: 3.76181in
-.. |image96| image:: media/image96.png
+.. |adv_marker_table| image:: media/adv_marker_table.png
    :width: 6.00000in
    :height: 1.76181in
-.. |image97| image:: media/image97.png
+.. |adv_ic50_plot| image:: media/adv_ic50_plot.png
    :width: 5.70694in
    :height: 5.86313in
-.. |image98| image:: media/image98.png
+.. |adv_linegraph_options| image:: media/adv_linegraph_options.png
    :width: 1.44774in
    :height: 0.52077in
-.. |image99| image:: media/image99.png
+.. |adv_linegraph_plot| image:: media/adv_linegraph_plot.png
    :width: 5.99962in
    :height: 4.31806in
-.. |image100| image:: media/image100.png
+.. |adv_logreg_plot| image:: media/adv_logreg_plot.png
    :width: 5.58958in
-.. |image101| image:: media/image101.png
+.. |adv_pca_options| image:: media/adv_pca_options.png
    :width: 4.20781in
    :height: 0.40620in
-.. |image102| image:: media/image102.png
+.. |adv_pca_plot| image:: media/adv_pca_plot.png
    :width: 3.59615in
    :height: 6.37500in
-.. |image103| image:: media/image103.png
+.. |adv_scatter_plot| image:: media/adv_scatter_plot.png
    :width: 5.79000in
    :height: 7.90000in
-.. |image104| image:: media/image104.png
+.. |adv_scatter_log10| image:: media/adv_scatter_log10.png
    :width: 4.36404in
    :height: 2.54135in
-.. |image105| image:: media/image105.png
+.. |adv_scatter_log10_plot| image:: media/adv_scatter_log10_plot.png
    :width: 5.10000in
    :height: 7.50000in
-.. |image106| image:: media/image106.png
+.. |adv_survival_plot| image:: media/adv_survival_plot.png
    :width: 6.00000in
    :height: 6.85064in
-.. |image107| image:: media/image107.png
+.. |adv_tabfish_plot| image:: media/adv_tabfish_plot.png
    :width: 4.43000in
    :height: 3.27000in
-.. |image108| image:: media/image108.png
+.. |adv_tabfish_linked_plot| image:: media/adv_tabfish_linked_plot.png
    :width: 4.39263in
    :height: 6.98958in
-.. |image109| image:: media/image109.png
+.. |adv_waterfall_plot| image:: media/adv_waterfall_plot.png
    :width: 6.00000in
    :height: 6.13333in
-.. |image110| image:: media/image110.png
-   :width: 0.13542in
-   :height: 0.13542in
-.. |image111| image:: media/image111.png
+.. |adv_plot_bin_contin| image:: media/adv_plot_bin_contin.png
    :width: 2.24724in
    :height: 0.69697in
-.. |image112| image:: media/image112.png
+.. |adv_plot_bin_categ| image:: media/adv_plot_bin_categ.png
    :width: 2.33117in
    :height: 0.60674in
-.. |image113| image:: media/image113.png
+.. |adv_forest_bin_indep| image:: media/adv_forest_bin_indep.png
    :width: 2.06250in
    :height: 1.17591in
-.. |image114| image:: media/image114.png
+.. |adv_forest_bin_contin| image:: media/adv_forest_bin_contin.png
    :width: 1.90000in
    :height: 1.17000in
-.. |image115| image:: media/image115.png
+.. |adv_forest_bin_categ| image:: media/adv_forest_bin_categ.png
    :width: 3.44000in
    :height: 1.24000in
-.. |image116| image:: media/image116.png
+.. |adv_tabfish_bin_indep| image:: media/adv_tabfish_bin_indep.png
    :width: 3.08955in
    :height: 1.05739in
-.. |image117| image:: media/image117.png
+.. |adv_tabfish_bin_contin| image:: media/adv_tabfish_bin_contin.png
    :width: 2.84328in
    :height: 0.69783in
-.. |image118| image:: media/image118.png
+.. |adv_tabfish_bin_categ| image:: media/adv_tabfish_bin_categ.png
    :width: 2.79851in
    :height: 1.23019in
-.. |image119| image:: media/image119.png
+.. |adv_jobname| image:: media/adv_jobname.png
    :width: 2.36458in
    :height: 0.69078in
-.. |image120| image:: media/image120.png
+.. |button_refresh| image:: media/button_refresh.png
    :width: 0.61451in
    :height: 0.20831in
-.. |image121| image:: media/image121.png
+.. |anajobs_list| image:: media/anajobs_list.png
    :width: 6.00000in
    :height: 1.27617in
-.. |image122| image:: media/image122.png
+.. |anajobs_processing| image:: media/anajobs_processing.png
    :width: 2.52052in
    :height: 0.98946in
 .. |geneprint| image:: media/geneprint.png

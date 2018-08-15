@@ -14,7 +14,11 @@ Workflows provided by SmartR:
 
 -   `Heatmap Workflow`_
 
+-   `IPA Connector Workflow`_
+
 -   `Linegraph Workflow`_
+
+-   `PatientMapper Workflow`_
 
 -   `Volcanoplot Workflow`_
 

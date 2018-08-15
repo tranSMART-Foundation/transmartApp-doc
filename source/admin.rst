@@ -37,12 +37,12 @@ The Administrator’s Console
 To access the console where you perform administrator tasks, click the
 **Admin** menu:
 
-|image180|
+|tabs_admin|
 
 On initialization, the administrator’s console displays the tranSMART
 access log:
 
-|image181|
+|admin_log_show|
 
 Tasks in the Administrator’s Console
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -164,7 +164,7 @@ For information on creating or editing a user account, see `Managing User Accoun
 |                                  |                                                                                                                                                                                          |
 |                                  | -  Access to all studies in the Public Studies folder. No access level is required.                                                                                                      |
 |                                  |                                                                                                                                                                                          |
-|                                  | **Note:** Private studies are categorized by Centers (CBER, CDER, and CDRH). The role STUDY\_OWNER applies at the Center level. For more information, see *Access Levels* on page 153.   |
+|                                  | **Note:** Private studies are categorized by Centers (CBER, CDER, and CDRH). The role STUDY\_OWNER applies at the Center level. For more information, see *Access Levels*.   |
 +----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ``ROLE_DATASET_EXPLORER_ADMIN``  | **tranSMART Search**                                                                                                                                                                     |
 |                                  |                                                                                                                                                                                          |
@@ -206,7 +206,7 @@ For information on creating or editing a user account, see `Managing User Accoun
 +----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. note::
-    For information about creating new roles that you can assign to users, see *User Roles* on page 138.
+    For information about creating new roles that you can assign to users, see *User Roles*.
 
 Access Rights to Analyze Studies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -250,7 +250,7 @@ To create a user account:
 
 #.  The Create User window appears:
 
-    |image182|
+    |admin_user_create|
 
 #.  Provide values for the fields in the Create User window, as follows:
 
@@ -281,7 +281,7 @@ To create a user account:
     |                |                                                                                                                                                                                                     |            |
     |                | If you do not check any of the boxes, the user will not be able to log into tranSMART.                                                                                                              |            |
     |                |                                                                                                                                                                                                     |            |
-    |                | **Note:** For information about the roles you can assign to the user, see the section *User Roles* on page 138.                                                                                     |            |
+    |                | **Note:** For information about the roles you can assign to the user, see the section *User Roles*.                                                                                     |            |
     +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+
 
 #.  When you are finished defining the user account, click **Create**.
@@ -393,7 +393,7 @@ Understanding Role / URL Mappings
 Roles are mapped to URLs on the Requestmap List window of the
 administrator’s console:
 
-|image183|
+|admin_reqmap_list|
 
 URLs in this window are expressed as fragments of URLs called URL
 patterns. tranSMART determines the full URL to associate with a role by
@@ -494,7 +494,7 @@ To create a tranSMART user role:
     Role names must be upper case and must be prefixed with ``ROLE_`` — for
     example:
 
-    |image184|
+    |admin_role_create|
 
 .. note::
     In this example, a user assigned the role ``ROLE_VIEW_LOG`` can view 
@@ -524,7 +524,7 @@ Adding a Role to an Existing Request Map
 #.  Click **Show** for the mapping to which you want to add a new
     role:
 
-    |image185|
+    |admin_reqmap_show|
 
 #.  Click **Edit**.
 
@@ -532,7 +532,7 @@ Adding a Role to an Existing Request Map
     after the rightmost role in the field, then type the name of the role
     to add to the map.
 
-    |image186|
+    |admin_reqmap_edit|
 
 #.  Click **Update**.
 
@@ -560,7 +560,7 @@ Assigning a Role to a User
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You assign a role to a user when you create or edit the user’s account.
-For instructions, see *Managing User Accounts* on page 140.
+For instructions, see *Managing User Accounts*.
 
 Editing or Deleting a Role
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -693,7 +693,7 @@ To create a group:
 
 #.  The following window appears:
 
-    |image187|
+    |admin_group_create|
 
 #.  In **Name**, assign a name to the group.
 
@@ -709,7 +709,7 @@ To create a group:
 In the following figure, the group Test Group has been created. Note
 that it currently has no members or privileges to access any studies.
 
-|image188|
+|admin_group_created|
 
 Managing a Group’s Users
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -722,7 +722,7 @@ To add users to a group, or remove users from a group:
 
 #.  The following window appears:
 
-    |image189|
+    |admin_group_members|
 
 #.  In **Search User**, type part or all of a user name, then select the
     name from the autotype dropdown.
@@ -740,7 +740,7 @@ To add users to a group, or remove users from a group:
     In the figure below, the specified user has been added to the group Test
     Group:
 
-    |image190|
+    |admin_group_useradded|
 
 #.  Click another administrative task, or leave the administrator’s
     console. No Save action is required.
@@ -809,7 +809,7 @@ To assign a user or group access privileges for a study:
 
 #.  The following window appears:
 
-    |image191|
+    |admin_access_group|
 
 #.  In **Search User/Group**, type part or all of a user or group name,
     then select the name from the autotype dropdown.
@@ -848,7 +848,7 @@ To grant access privileges to a study:
 
 #.  The following window appears:
 
-    |image192|
+    |admin_access_study|
 
 #.  In **Secure Object**, select the study or study category to which
     access is being granted.
@@ -911,7 +911,7 @@ To specify a timeframe:
     Alternatively, select the start date from the calendar that appears when
     you place the mouse pointer inside the Start Date or End Date text box.
 
-    |image193|
+    |admin_log_start|
 
 #.  Repeat Step 1 for the **End Date** field.
 
@@ -959,7 +959,7 @@ To create a program in the Program Explorer:
 
 #.  Click **Add new program** under the Welcome to tranSMART box:
 
-    |image194|
+    |browse_add_program|
 
 #.  Define the fields in the Create Program dialog box, then click
     **Save**.
@@ -978,7 +978,7 @@ To create a child object:
     The child objects that can be created under the parent appear as buttons
     in the upper-right corner of the Browse window; for example:
 
-    |image195|
+    |browse_program_more|
 
 #.  Click the appropriate button to open the Create… dialog box.
 
@@ -1013,25 +1013,25 @@ Editing and Deleting Objects
 The following table describes how to edit and delete Program Explorer
 objects:
 
-+------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Task                                     | Description                                                                                                                                                                       |
-+==========================================+===================================================================================================================================================================================+
-| Editing an object                        | To edit an object, click the object in the Program Explorer, then click the pencil icon that appears in the Browse window:                                                        |
-|                                          |                                                                                                                                                                                   |
-|                                          | |image196|                                                                                                                                                                        |
-|                                          |                                                                                                                                                                                   |
-|                                          | Define the fields in the Edit… dialog box, then click **Save**.                                                                                                                   |
-+------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Deleting analyses, assays, and folders   | To delete an analysis, assay, or folder, click the object in the Program Explorer, then click the **Delete this…** button in the upper right corner of the window; for example:   |
-|                                          |                                                                                                                                                                                   |
-|                                          | |image197|                                                                                                                                                                        |
-|                                          |                                                                                                                                                                                   |
-|                                          | **Note:** Only analyses, assays, and folders can be deleted from within the Browse window. Programs and studies must be deleted from the database directly.                       |
-+------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Deleting files                           | To delete a file from a folder, click the folder in the Program Explorer, then click the **Delete** button at the right:                                                          |
-|                                          |                                                                                                                                                                                   |
-|                                          | |image198|                                                                                                                                                                        |
-+------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Task                                     | Description                                                                                                                                                                                                                              |
++==========================================+==========================================================================================================================================================================================================================================+
+| Editing an object                        | To edit an object, click the object in the Program Explorer, then click the pencil icon that appears in the Browse window:                                                                                                               |
+|                                          |                                                                                                                                                                                                                                          |
+|                                          | |browse_folder_edit|                                                                                                                                                                                                                     |
+|                                          |                                                                                                                                                                                                                                          |
+|                                          | Define the fields in the Edit… dialog box, then click **Save**.                                                                                                                                                                          |
++------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Deleting analyses, assays, and folders   | To delete an analysis, assay, or folder, click the object in the Program Explorer, then click the **Delete this…** button in the upper right corner of the window; for example:                                                          |
+|                                          |                                                                                                                                                                                                                                          |
+|                                          | |browse_folder_delete|                                                                                                                                                                                                                   |
+|                                          |                                                                                                                                                                                                                                          |
+|                                          | **Note:** Normally only analyses, assays, and folders can be deleted from within the Browse window. Programs and studies must be deleted from the database directly unless this feature is enabled in the startup configuration settings.|
++------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Deleting files                           | To delete a file from a folder, click the folder in the Program Explorer, then click the **Delete** button at the right:                                                                                                                 |
+|                                          |                                                                                                                                                                                                                                          |
+|                                          | |browse_folder_filedelete|                                                                                                                                                                                                               |
++------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Common Features for Creating and Editing Objects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1045,21 +1045,21 @@ or Edit… dialog box:
 +=============================================+====================================================================================================================================================================================================================================================================================+
 | Required fields                             | Fields whose names are followed by a red asterisk are required:                                                                                                                                                                                                                    |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image199|                                                                                                                                                                                                                                                                         |
+|                                             | |browse_field_required|                                                                                                                                                                                                                                                            |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Autocomplete fields                         | Shaded fields are autocomplete fields. Type one or more characters at the beginning of the value that you want to assign to the field, and tranSMART will display a list of text strings that begin with those characters. Select the value to assign from the displayed list.     |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image200|                                                                                                                                                                                                                                                                         |
+|                                             | |browse_field_autocomplete|                                                                                                                                                                                                                                                        |
 |                                             |                                                                                                                                                                                                                                                                                    |
 |                                             | Alternatively, insert the cursor in the field and press the Down arrow key to select from an alphabetical list of suggested field values.                                                                                                                                          |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Multiple-value fields                       | Some autocomplete fields allow multiple values to be assigned. These fields contain the label **Add new** next to the field.                                                                                                                                                       |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image201|                                                                                                                                                                                                                                                                         |
+|                                             | |browse_field_multi|                                                                                                                                                                                                                                                               |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Removing a value from a multi-value field   | To remove a value from a multi-value field, click the blue **x** icon next to the value:                                                                                                                                                                                           |
 |                                             |                                                                                                                                                                                                                                                                                    |
-|                                             | |image202|                                                                                                                                                                                                                                                                         |
+|                                             | |browse_field_multi_delete|                                                                                                                                                                                                                                                        |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Close vs. Cancel buttons                    | Both buttons close the Create… or Edit… dialog box, and any changes you made in the dialog box are abandoned. However, with **Cancel**, a warning message appears before the dialog box is closed. With **Close**, the dialog box is closed immediately with no warning message.   |
 +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1079,72 +1079,72 @@ electronically generated PDFs.
 Files can be uploaded to a folder via FTP and can be stored on the
 application server.
 
-.. |image180| image:: media/image180.png
+.. |tabs_admin| image:: media/tabs_admin.png
    :width: 6.00000in
    :height: 0.32569in
-.. |image181| image:: media/image181.png
+.. |admin_log_show| image:: media/admin_log_show.png
    :width: 6.00000in
    :height: 1.95903in
-.. |image182| image:: media/image182.png
+.. |admin_user_create| image:: media/admin_user_create.png
    :width: 5.58000in
    :height: 3.82000in
-.. |image183| image:: media/image183.png
+.. |admin_reqmap_list| image:: media/admin_reqmap_list.png
    :width: 6.00000in
    :height: 2.75985in
-.. |image184| image:: media/image184.png
+.. |admin_role_create| image:: media/admin_role_create.png
    :width: 2.29659in
    :height: 1.03112in
-.. |image185| image:: media/image185.png
+.. |admin_reqmap_show| image:: media/admin_reqmap_show.png
    :width: 6.00000in
    :height: 0.93206in
-.. |image186| image:: media/image186.png
+.. |admin_reqmap_edit| image:: media/admin_reqmap_edit.png
    :width: 2.69498in
    :height: 1.32015in
-.. |image187| image:: media/image187.png
+.. |admin_group_create| image:: media/admin_group_create.png
    :width: 4.56818in
    :height: 2.34606in
-.. |image188| image:: media/image188.png
+.. |admin_group_created| image:: media/admin_group_created.png
    :width: 3.59434in
    :height: 2.76216in
-.. |image189| image:: media/image189.png
+.. |admin_group_members| image:: media/admin_group_members.png
    :width: 6.49865in
    :height: 3.13590in
-.. |image190| image:: media/image190.png
+.. |admin_group_useradded| image:: media/admin_group_useradded.png
    :width: 4.36456in
    :height: 1.98309in
-.. |image191| image:: media/image191.png
+.. |admin_access_group| image:: media/admin_access_group.png
    :width: 6.12632in
    :height: 2.80465in
-.. |image192| image:: media/image192.png
+.. |admin_access_study| image:: media/admin_access_study.png
    :width: 6.00000in
    :height: 2.80765in
-.. |image193| image:: media/image193.png
+.. |admin_log_start| image:: media/admin_log_start.png
    :width: 3.36416in
    :height: 2.12473in
-.. |image194| image:: media/image194.png
+.. |browse_add_program| image:: media/browse_add_program.png
    :width: 4.29167in
    :height: 3.44178in
-.. |image195| image:: media/image195.png
+.. |browse_program_more| image:: media/browse_program_more.png
    :width: 4.67500in
    :height: 0.52292in
-.. |image196| image:: media/image196.png
+.. |browse_folder_edit| image:: media/browse_folder_edit.png
    :width: 4.67500in
    :height: 1.17014in
-.. |image197| image:: media/image197.png
+.. |browse_folder_delete| image:: media/browse_folder_delete.png
    :width: 4.76042in
    :height: 0.62747in
-.. |image198| image:: media/image198.png
+.. |browse_folder_filedelete| image:: media/browse_folder_filedelete.png
    :width: 4.66542in
    :height: 0.74916in
-.. |image199| image:: media/image199.png
+.. |browse_field_required| image:: media/browse_field_required.png
    :width: 2.73924in
    :height: 0.29163in
-.. |image200| image:: media/image200.png
+.. |browse_field_autocomplete| image:: media/browse_field_autocomplete.png
    :width: 4.24947in
    :height: 0.78115in
-.. |image201| image:: media/image201.png
+.. |browse_field_multi| image:: media/browse_field_multi.png
    :width: 4.22864in
    :height: 0.87489in
-.. |image202| image:: media/image202.png
+.. |browse_field_multi_delete| image:: media/browse_field_multi_delete.png
    :width: 4.22864in
    :height: 0.87489in
