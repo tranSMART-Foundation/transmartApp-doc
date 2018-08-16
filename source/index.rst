@@ -76,6 +76,7 @@ The following was originally stated and still applies:
    gwas
    data_upload
    admin
+   browse_admin
    appendix_a
    appendix_b
 
