@@ -270,6 +270,16 @@ These measures that have been calculated between both subsets.
 
 |smartr_heatmap_differential_expression_table|
 
+IPA Connector Workflow
+~~~~~~~~~~~~~~~~~~~~~~
+
+In preparation.
+
+Launches a Qiagen Ingenuity Pathway Analysis (this needs a demo or
+authorized login) to identify pathways linked to results.
+
+This workflow was added by the new 'IPA' plugin in tranSMART 16.2.
+
 Linegraph Workflow
 ~~~~~~~~~~~~~~~~~~
 
@@ -297,6 +307,18 @@ In the bottom of the screen a control bar is shown that contains:
     Like so:
     
     |smartr_linegraph_bad|
+
+PatientMapper Workflow
+~~~~~~~~~~~~~~~~~~~~~~
+
+In preparation.
+
+This workflow maps patients with categorical variables from a subset
+using one variable to a subset using another variable, rewriting the
+query in the comparison tab.
+
+The workflow was developed for a specific project need and may have
+more general applications.
 
 Volcanoplot Workflow
 ~~~~~~~~~~~~~~~~~~~~
