@@ -59,7 +59,7 @@ Running the Analyses
 
 To begin to run any analysis:
 
-#.  In **Analyze**, open the study of interest, or open the Advanced
+#.  In **Analyze**, open the study of interest, or open the Across
     Trials folder to run an analysis of data from multiple studies.
 
 #.  Define the cohort(s) you want to analyze by dragging one or more
@@ -1393,8 +1393,8 @@ What happens for this example above is the following:
 #.  Check if the first value of the bin is also in the previous bin, if so, adjust bin number to 1 (line of code above). NOTE! this is only done for the current bin we are looking at.
 #.  This is repeated for all bins except the last.
 #.  The last bin is assigned to all bins that did not have a bin assigned yet.
-#.  In our case this goes wrong because the 0 value is 85% of our subjects. Due to this heavy.
-#.  Skew the code breaks as it does not cover this assumption.
+#.  In our case this goes wrong because the 0 value is 85% of our subjects.
+#.  Due to this heavy skew the code breaks as it does not cover this assumption.
 
 
 Data Binning Using Box Plot with ANOVA
